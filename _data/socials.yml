@@ -1,0 +1,8 @@
+# Social media links displayed on the about page in the order they are defined.
+# See jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+cv_pdf: /assets/pdf/cv.pdf
+email: nshah@snapchat.com
+scholar_userid: Qut69OgAAAAJ  # Neil Shah's Google Scholar ID (https://scholar.google.com/citations?user=Qut69OgAAAAJ)
+github_username: nshah171
+linkedin_username: nshah171
+rss_icon: false

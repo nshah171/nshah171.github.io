@@ -1,0 +1,637 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[total={6.5in, 9in}]{geometry}
+
+%\usepackage{times}
+%\usepackage{pslatex}
+%\usepackage[utf8x]{inputenc}
+%\usepackage{listings}
+%\setlength{\textwidth}{6in}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+%\setlength{\textheight}{8.85in}
+%\setlength{\columnsep}{2.0pc}
+%\setlength{\textwidth}{7in}
+%\setlength{\topmargin}{0.15in}
+%\setlength{\headsep}{0.0in}
+%\setlength{\oddsidemargin}{-.19in}
+\setlength{\parindent}{1pc}
+\usepackage[linktocpage]{hyperref}
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep}
+\usepackage{etaremune}
+\usepackage{libertine}
+%\usepackage[compact]{titlesec}
+
+% Set your name here
+\def\name{\textrm{{Neil Shah}}}
+%\rmfamily
+
+\markright{\name}
+\thispagestyle{empty}
+
+\begin{document}
+
+% Place name at left
+{\Huge \bf \textsc{\name}}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+\begin{tabular}[t]{cc}
+ \begin{minipage}[t,left]{0.5\linewidth}
+ Director of Research, Senior Principal Scientist \\
+ \href{http://www.snap.com}{Snap Inc.} \\
+ Seattle, WA
+ \end{minipage} \hfill \quad \quad \quad \quad \quad \quad \quad \begin{minipage}[t,right]{0.5\linewidth}
+  Email: \texttt{{\fontfamily{pcr}\selectfont nshah[at]snap[dot]com}}\\
+  Last Update: \today
+\end{minipage}
+\end{tabular} \\
+
+\section*{\bf \textsc{Education}}
+\vspace{-5mm}\HRule
+\begin{itemize}
+\item \textbf{Ph.D}: Computer Science, Carnegie Mellon University, August 2013 - October 2017 \\
+Advisor: \href{http://www.cs.cmu.edu/~christos}{Prof. Christos Faloutsos}.  \textbf{Degree Received: December 20, 2017}.
+\item \textbf{M.S}: Computer Science, Carnegie Mellon University, August 2013 - May 2017
+\item \textbf{B.S}: Computer Science (Minor in Mathematics), North Carolina State University, August 2010 - May 2013 \\
+  GPA: \textbf{4.0} (class rank \#1), \emph{Summa Cum Laude with Honors}
+\end{itemize}
+
+\section*{\bf \textsc{Positions}}
+\vspace{-5mm}\HRule
+\begin{itemize}
+\item {\bf Snap Inc.}, Director of Research, Senior Principal Scientist. \\ I lead a horizontal team of researchers and engineers on academic, applied research and engineering initiatives in user modeling and personalization, with applications to growth, content, ads, and safety applications. \\ December 2017 - present
+\item {\bf Carnegie Mellon University}, Graduate Researcher. \\ I worked in the Computer Science Department, on algorithms and applications for anomaly detection in large social graphs. \\ August 2013 - October 2017
+\item {\bf Twitch}, Visiting Researcher. \\  I worked on anti-abuse technologies as a member of the Science team.  \\ January 2016 - May 2016
+\item {\bf Microsoft Research - Redmond}, Research Intern. \\  I worked on improving metrics and methods for measuring research impact for Microsoft Academic Search.  \\ June 2015 - August 2015
+\item {\bf Lawrence Livermore National Laboratory}, Research Intern. \\  I worked on developing algorithms to automatically identify patterns and anomalies in time-evolving graphs. \\ June 2014 - August 2014
+\item {\bf IBM - Silicon Valley}, Software Intern. \\ I worked in the IBM BigInsights group, with a focus on indexing and analytics of system log data.  \\ May 2012 - January 2013
+\item {\bf North Carolina State University}, Undergraduate Researcher. \\ I worked in the Department of Computer Science on compressing and indexing large scientific datasets. \\ June 2009 - April 2013
+\end{itemize}
+
+\section*{\bf \textsc{Awards \& Distinctions}}
+\vspace{-5mm}\HRule
+\begin{itemize}
+\item ACM CIKM Best Paper Award, 2025
+\item North Carolina State University Department of Computer Science Rising Star Award, 2023
+\item ACM WSDM Outstanding Service Award, 2022 
+\item ACM SIGCHI Best Research Paper Honorable Mention Award, 2019
+\item Symantec Graduate Research Fellowship Finalist, 2017
+\item ACM SIGKDD Best Research Paper Award, 2016
+\item National Science Foundation Graduate Research Fellowship, 2013
+\item North Carolina State University College of Engineering Senior Award for Scholarly Achievement, 2013
+\item North Carolina State University Department of Computer Science Senior Faculty Scholar, 2012
+ \item National Science Foundation Research Experience for Undergraduates Grant, 2011
+ \item North Carolina State University College of Engineering Dean's Research Assistantship, 2011
+\item North Carolina State University Caldwell Fellowship, 2011
+\item Coca-Cola Scholarship, 2010
+\item Zinch Scholarship, 2010
+\item National Merit Scholarship, 2010
+\item CompTIA Information Technology Merit Award, 2010
+\item 2nd place, National Siemens Competition in Math, Science and Technology, 2009
+\item 1st place, Regional Siemens Competition in Math, Science and Technology, 2009
+\end{itemize}
+
+\section*{\bf \textsc{Publications}}
+\vspace{-5mm}\HRule
+
+\subsection*{\bf {Refereed Conference Publications}}
+\begin{etaremune}[itemsep=1pt,parsep=0pt]
+
+\item Geon Lee, Bhuvesh Kumar, Clark Ju, Tong Zhao, Kijung Shin, Neil Shah, Liam Collins. \emph{Sequential Data Augmentation for Generative Recommendation}, WSDM 2026.
+
+\item Zaiyi Zheng, Yaochen Zhu, Haochen Liu, Clark Ju, Tong Zhao, Neil Shah, Jundong Li. \emph{Pretrained Language Model based Cold-Start Recommendation with Meta-Item Embeddings}, CIKM 2025.
+
+\item Clark Ju, Liam Collins, Leonardo Neves, Bhuvesh Kumar, Louis Wang, Tong Zhao, Neil Shah. \emph{Generative Recommendation with Semantic IDs: A Practitioner's Handbook}, CIKM 2025. \textbf{Best Paper Award}
+
+\item Quang Truong, Zhikai Chen, Clark Ju, Tong Zhao, Neil Shah, Jiliang Tang. \emph{A Pre-Training Framework for Relational Data with Information Theoretic Principles}, NeurIPS 2025.
+
+\item Donald Loveland, Mingxuan Ju, Tong Zhao, Neil Shah, Danai Koutra. \emph{On the Role of Weight Decay in Collaborative Filtering: A Popularity Perspective}, KDD 2025.
+
+\item Tong Zhao, Yozen Liu, Matthew Kolodner, Kyle Montemayor, Elham Ghazizadeh, Ankit Batra, Zihao Fan, Xiaobin Gao, Xuan Guo, Jiwen Ren, Serim Park, Peicheng Yu, Jun Yu, Shubham Vij, Neil Shah. \emph{GiGL: Large-Scale Graph Neural Networks at Snapchat}, KDD 2025.
+
+\item Mingxuan Ju, Leonardo Neves, Bhuvesh Kumar, Liam Collins, Tong Zhao, Yuwei Qiu, Qing Dou, Sohail Nizam, Sen Yang, Neil Shah. \emph{Revisiting Self-Attention for Cross-Domain Sequential Recommendation}, KDD 2025.
+
+\item Mingxuan Ju, Leonardo Neves, Bhuvesh Kumar, Liam Collins, Tong Zhao, Yuwei Qiu, Ching Dou, Yang Zhou, Sohail Nizam, Rengim Aykan Ozturk, Yvette Liu, Sen Yang, Manish Malik, Neil Shah. \emph{Learning Universal User Representations Leveraging Cross-domain User Intent at Snapchat}, SIGIR 2025.
+
+\item Rui Xue, Tong Zhao, Neil Shah, Xiaorui Liu. \emph{Haste Makes Waste: A Simple Approach for Scaling Graph Neural Networks}, ICML 2025.
+
+\item Ngoc Bui, Menglin Yang, Runjin Chen, Leonardo Neves, Clark Ju, Rex Ying, Neil Shah, Tong Zhao. \emph{Learning Along the Arrow of Time: Hyperbolic Geometry for Backward-Compatible Representation Learning}, ICML 2025.
+
+\item Donald Loveland, Xinyi Wu, Tong Zhao, Danai Koutra, Neil Shah, Mingxuan Ju. \emph{Understanding and Scaling Collaborative Filtering Optimization from the Perspective of Matrix Rank}, WWW 2025.
+
+\item Xinyi Wu, Donald Loveland, Runjin Chen, Yozen Liu, Xin Chen, Leonardo Neves, Ali Jadbabaie, Mingxuan Ju, Neil Shah, Tong Zhao. \emph{GraphHash: Graph Clustering Enables Parameter Efficiency in Recommender Systems}, WWW 2025.
+
+\item Jing Zhu, Yuhang Zhou, Shengyi Qian, Zhongmou He, Tong Zhao, Neil Shah, Danai Koutra. \emph{Mosaic of Modalities: A Comprehensive Benchmark for Multimodal Graph Learning}, CVPR 2025.
+
+\item Jingzhe Liu, Haitao Mao, Zhikai Chen, Tong Zhao, Neil Shah, Jiliang Tang. \emph{Towards Neural Scaling Laws on Graphs}, LoG 2024.
+
+\item Mingxuan Ju, William Shiao, Zhichun Guo, Yanfang Ye, Yozen Liu, Neil Shah, Tong Zhao. \emph{Test-time Aggregation For Collaborative Filtering}, NeurIPS 2024.
+
+\item Pau Kung, Zihao Fan, Tong Zhao, Yozen Liu, Zhixin Lai, Jiahui Shi, Yan Wu, Jun Yu, Neil Shah and Ganesh Venkataraman. \emph{Improving Embedding-Based Retrieval in Friend Recommendation with ANN Query Expansion}, SIGIR 2024.
+
+\item Runjin Chen, Tong Zhao, Ajay Kumar Jaiswal, Neil Shah, Zhangyang Wang. 
+ \emph{LLaGA: Large Language and Graph Assistant}, ICML 2024.
+ 
+\item Haitao Mao, Zhikai Chen, Wenzhuo Tang, Jianan Zhao, Yao Ma, Tong Zhao, Neil Shah, Mikhail Galkin, Jiliang Tang. 
+ \emph{Graph Foundation Models}, ICML 2024.
+
+ \item Agostina Calabrese, Leonardo Neves, Neil Shah, Maarten Bos, Björn Ross, Mirella Lapata, Francesco Barbieri. 
+ \emph{Explainability and Hate Speech: Structured Explanations Make Social Media Moderators Faster}, ACL 2024.
+
+\item Haitao Mao, Juanhui Li, Harry Shomer, Bingheng Li, Wenqi Fan, Yao Ma, Tong Zhao, Neil Shah, Jiliang Tang. 
+ \emph{Revisiting Link Prediction: a data perspective}, ICLR 2024.
+
+\item Yu Wang, Tong Zhao, Yuying Zhao, Yunchao Liu, Xueqi Cheng, Neil Shah, Tyler Derr.  \emph{A Topological Perspective on Demystifying GNN-based Link Prediction Performance}, ICLR 2024.
+
+\item Tong Zhao, Neil Shah, Elham Ghazizadeh. \emph{Learning from Graphs without Explicit Graph Machine Learning Models}, ICLR 2024.
+
+\item Juanhui Li, Harry Shomer, Haitao Mao, Shenglai Zeng, Yao Ma, Neil Shah, Jiliang Tang, Dawei Yin. \emph{Evaluating Graph Neural Networks for Link Prediction: Current Pitfalls and New Benchmarking}, NeurIPS 2023.
+
+\item Haitao Mao, Zhikai Chen, Wei Jin, Haoyu Han, Yao Ma, Tong Zhao, Neil Shah, Jiliang Tang. \emph{Demystifying Structural Disparity in Graph Neural Networks: Can One Size Fit All?}, NeurIPS 2023.
+
+\item Mingxuan Ju, Tong Zhao, Wenhao Yu, Neil Shah, Fanny Ye. \emph{GraphPatcher: Mitigating Degree Bias for Graph Neural Networks via Test-time Node Patching}, NeurIPS 2023.
+
+\item William Shiao, Uday Singh Saini, Yozen Liu, Tong Zhao, Neil Shah, Evangelos Papalexakis. \emph{CARL-G: Clustering-Accelerated Representation Learning on Graphs}, KDD 2023.
+
+\item Siddharth Bhatia, Mohit Wadhwa, Kenji Kawaguchi, Neil Shah, Philip S. Yu, Bryan Hooi. \emph{Sketch-based Anomaly Detection in Streaming Graphs}, KDD 2023.
+
+\item Zhichun Guo, William Shiao, Shichang Zhang, Yozen Liu, Nitesh Chawla, Neil Shah, Tong Zhao. \emph{Linkless Link prediction via Relational Distillation}, ICML 2023.
+
+\item Jiahui Shi, Vivek Chaurasiya, Yozen Liu, Shubham Vij, Yan Wu, Satya Kanduri, Neil Shah, Peicheng Yu, Nik Srivastava, Lei Shi, Ganesh Venkataraman, Jun Yu. \emph{Embedding-based Retrieval in Friend Recommendation}, SIGIR 2023.
+
+\item Juanhui Li, Harry Shomer, Jiayuan Ding, Yiqi Wang, Yao Ma, Neil Shah, Jiliang Tang, Dawei Yin. \emph{Are Message Passing Neural Networks Really Helpful for Knowledge Graph Completion?}, ACL 2023.
+
+\item Xiaotian Han, Tong Zhao, Yozen Liu, Xia Hu, Neil Shah. \emph{MLPInit: Embarrassingly Simple GNN Training Acceleration with MLP Initialization}, ICLR 2023.
+
+\item Mingxuan Ju, Tong Zhao, Qianlong Wen, Wenhao Yu, Neil Shah, Yanfang Ye, Chuxu Zhang. \emph{Multi-task Self-supervised Graph Neural Networks Enable Stronger Task Generalization}, ICLR 2023.
+
+\item William Shiao, Zhichun Guo, Tong Zhao, Vagelis Papalexakis, Yozen Liu, Neil Shah. \emph{Link Prediction with Non-Contrastive Learning}, ICLR 2023.
+
+\item Wei Jin, Tong Zhao, Jiayuan Ding, Yozen Liu, Jiliang Tang, Neil Shah. \emph{Empowering Graph Representation Learning with Test-Time Graph Transformation}, ICLR 2023.
+
+\item Yiwei Wang, Bryan Hooi, Yozen Liu, Tong Zhao, Zhichun Guo, Neil Shah. \emph{Flashlight: Scalable Link Prediction with Effective Decoders}, LoG 2023.
+
+\item Yiwei Wang, Bryan Hooi, Yozen Liu, Neil Shah. \emph{Graph Explicit Neural Networks: Explicitly Encoding Graphs for Efficient and Accurate Inference}, WSDM 2023.
+
+\item Shichang Zhang, Yozen Liu, Neil Shah, Yizhou Sun. \emph{Explaining Graph Neural Networks with Structure-Aware Cooperative Games}, NeurIPS 2022.
+
+\item Lingxiao Zhao, Louis Härtel, Neil Shah, Leman Akoglu. \emph{A Practical, Progressively Expressive Graph Neural Network}, NeurIPS 2022.
+
+\item Yu Wang, Yuying Zhao, Neil Shah, Tyler Derr. \emph{Imbalanced Graph Classification via Graph-of-Graph Neural Networks}, CIKM 2022.
+
+\item Raiyan Baten, Yozen Liu, Heinrich Peters, Francesco Barbieri, Neil Shah, Leonardo Neves, Maarten Bos. \emph{Predicting Future Location Categories of Users in a Large Social Platform}, ICWSM 2023.
+
+\item Julie Jiang, Nils Murrugarra-Llerena, Maarten Bos, Yozen Liu, Neil Shah, Leonardo Neves, Francesco Barbieri. \emph{Sunshine with a Chance of Smiles: How does Weather Impact Sentiment on Social Media?}, ICWSM 2022.
+
+\item Shichang Zhang, Yozen Liu, Yizhou Sun, Neil Shah.  \emph{Graph-less Neural Networks: Teaching Old MLPs new Tricks via Distillation}, ICLR 2022.
+
+\item Wei Jin, Lingxiao Zhao, Shichang Zhang, Yozen Liu, Jiliang Tang, Neil Shah. \emph{Graph Condensation for Graph Neural Networks}, ICLR 2022.
+
+\item Lingxiao Zhao, Wei Jin, Leman Akoglu, Neil Shah.  \emph{From Stars to Subgraphs: Uplifting any GNN with Local Structure Awareness}, ICLR 2022.
+
+\item Yao Ma, Xiaorui Liu, Neil Shah, Jiliang Tang. \emph{Is Homophily a Necessity for Graph Neural Networks?}, ICLR 2022. 
+
+\item Wei Jin, Xiaorui Liu, Xiaoyu Zhao, Yao Ma, Neil Shah, Jiliang Tang. \emph{Automated Self-Supervised Learning for Graphs}, ICLR 2022.
+
+\item Xianfeng Tang, Yozen Liu, Xinran He, Suhang Wang, Neil Shah. \emph{Ranking Friend Stories on Social Platforms with Edge-Contextual Local Graph Convolutions}, WSDM 2022.
+
+\item Satyaki Sikdar, Neil Shah, Tim Weninger. \emph{Attributed Graph Modeling with Vertex Replacement Grammars}, WSDM 2022.
+
+\item Hyeonjeong Shin, Taehyung Kwon, Neil Shah, Kijung Shin. \emph{Finding a Concise, Precise and Exhaustive Set of Near Bi-Cliques in Dynamic Graphs}, WSDM 2022.
+
+\item Tong Zhao, Bo Ni, Wenhao Yu, Zhichun Guo, Neil Shah, Meng Jiang. \emph{Action Sequence Augmentation for Early Graph-based Anomaly Detection}, CIKM 2021.
+
+\item Yao Ma, Xiaorui Liu, Tong Zhao, Yozen Liu, Jiliang Tang, Neil Shah. \emph{A Unified View on Graph Neural Networks as Graph Signal Denoising}, CIKM 2021.
+
+\item Ekta Gujral, Leonardo Neves, Evangelos Papalexakis, Neil Shah. \emph{Niche Detection in User Content Consumption Data}, CIKM 2021.
+
+\item Shubhranshu Shekhar, Neil Shah, Leman Akoglu. \emph{FairOD: Fairness-aware Outlier Detection}, AIES 2021.
+
+\item Qi Yang, Weinan Wang, Lucas Pierce, Rajan Vaish, Xiaolin Shi, Neil Shah. \emph{Online Communication Shifts in the Midst of the Covid-19 Pandemic: A Case Study on Snapchat}, ICWSM 2021.
+
+\item Farhan Asif Chowdhury, Yozen Liu, Koustuv Saha, Nicholas Vincent, Leonardo Neves, Neil Shah, Maarten Bos. \emph{CEAM: The Effectiveness of Cyclic and Ephemeral Attention Models of User Behavior on Social Platforms}, ICWSM 2021. 
+
+\item Aravind Sankar, Yozen Liu, Jun Yu, Neil Shah. \emph{Graph Neural Networks for Friend Ranking in Large-scale Social Platforms}, WWW 2021. 
+
+\item Koustuv Saha, Yozen Liu, Nicholas Vincent, Farhan Asif Chowdhury, Leonardo Neves, Neil Shah, Maarten Bos. \emph{AdverTiming Matters: Examining User Ad Consumption for Effective Ad Allocations on Social Media}, CHI 2021. 
+
+\item Tong Zhao, Yozen Liu, Leonardo Neves, Oliver Woodford, Meng Jiang, Neil Shah.  \emph{Data Augmentation for Graph Neural Networks}, AAAI 2021.
+
+\item Brihi Joshi, Francesco Barbieri, Neil Shah, Leonardo Neves.  \emph{The Devil is in the Details: Evaluating Limitations of Transformer-based Methods for Granular Tasks}, COLING 2020.
+
+\item Parisa Kaghazgaran, Maarten Bos, Leonardo Neves, Neil Shah. \emph{Social Factors in Closed-Network Content Consumption}, CIKM 2020.
+
+\item Sara Abdali, Rutuja Gurav, Siddharth Menon, Daniel Fonseca, Negin Entezari, Neil Shah, Evangelos Papalexakis. \emph{Identifying Misinformation from Website Screenshots}, ICWSM 2021.
+
+\item  Sara Abdali, Neil Shah, Evangelos Papalexakis. \emph{Semi-Supervised Multi-aspect Misinformation Detection with Hierarchical Joint Decomposition}, ECML-PKDD 2020.
+
+\item Xianfeng Tang, Yozen Liu, Neil Shah, Xiaolin Shi, Prasenjit Mitra, Suhang Wang. \emph{Knowing your FATE: Friendship, Action and Temporal Explanations for User Engagement Prediction on Social Apps}, KDD 2020.
+
+\item Neil Shah. \emph{FARE: Schema-Agnostic Anomaly Detection in Social Event Logs}, DSAA 2019.
+
+\item Hamed Nilforoshan, Neil Shah.  \emph{SliceNDice: Mining Suspicious Multi-attribute Entity Groups with Multi-view Graphs}, DSAA 2019.
+
+\item Hemank Lamba, Neil Shah.  \emph{Modeling Dwell Time Engagement on Visual Multimedia}, KDD 2019.  
+
+\item Hana Habib, Neil Shah, Rajan Vaish.  \emph{Impact of Contextual Factors on Public Snapchat Sharing}, CHI 2019. {\bf Best Paper Honorable Mention Award}.
+
+\item Shreya Jain, Dipankar Niranjan, Hemank Lamba, Neil Shah, Ponnurangam Kumaraguru.  \emph{Characterizing and Detecting Livestreaming Chatbots}, ASONAM 2019
+
+\item Gisel Batista Guacho, Sara Abdali, Neil Shah, Evangelos Papalexakis.  \emph{Semi-Supervised Content-based Detection of Misinformation via Tensor Embeddings}, ASONAM 2018.  
+
+\item Nikhil Gupta, Dhivya Eswaran, Neil Shah, Leman Akoglu, Christos Faloutsos. \emph{Beyond Outlier Detection: LookOut for Pictorial Explanation}, ECML-PKDD 2018.
+
+\item Neil Shah, Hemank Lamba, Alex Beutel and Christos Faloutsos. \emph{The Many Faces of Link Fraud}, ICDM 2017.
+
+\item Da-Cheng Juan, Neil Shah, Mingyu Tang, Zhiliang Qian, Diana Marculescu, Christos Faloutsos. \emph{M3A: Model, MetaModel, and Anomaly Detection in Web Searches}, DSAA 2017.
+
+\item Neil Shah. \emph{FLOCK: Combating Astroturfing on Livestreaming Platforms}, WWW 2017.
+
+\item Bryan Hooi, Hyun Ah Song, Alex Beutel, Neil Shah, Kijung Shin, Christos Faloutsos. \emph{FRAUDAR: Bounding Graph Fraud in the Face of Camouflage}, KDD 2016.  {\bf Best Paper Award}.
+
+\item Bryan Hooi, Neil Shah, Alex Beutel, Stephan Gunnemann, Leman Akoglu, Mohit Kumar, Disha Makhija, Christos Faloutsos. \emph{BIRDNEST: Bayesian Inference for Ratings-Fraud Detection}, SDM 2016.
+
+\item Neil Shah, Danai Koutra, Tianmin Zou, Brian Gallagher, Christos Faloutsos. \emph{TimeCrunch: Interpretable Dynamic Graph Summarization}, KDD 2015.
+
+\item Maria Giatsoglou, Despoina Chatzakou, Neil Shah, Alex Beutel, Stephan Guenneman, Christos Faloutsos, Athena Vakali. \emph{ND-Sync: Detecting Synchronized Fraud Activities}, PAKDD 2015.
+
+\item Maria Giatsoglou, Despoina Chatzakou, Neil Shah, Christos Faloutsos, Athena Vakali. \emph{Retweeting Activity on Twitter: Signs of Fraud}, PAKDD 2015.
+
+\item Neil Shah, Alex Beutel, Brian Gallagher, Christos Faloutsos. \emph{Spotting Suspicious Link Behavior with fBox: An Adversarial Perspective}, ICDM 2014.
+
+\item Neil Shah, Eric Schendel, Saurabh Pendse, Sriram Lakshminarasimhan, Terry Rogers, Nagiza Samatova. \emph{Improving I/O Throughput with PRIMACY: Preconditioning ID-Mapper for Compressing Incompressibility}, CLUSTER 2012.
+
+\item Eric Schendel, Ye Jin, Neil Shah, Jackie Chen, Choong-Seock Chang, Seung-Hoe Ku, Stephane Ethier, Scott Klasky, Robert Latham, Robert Ross, Nagiza Samatova. \emph{ISOBAR Preconditioner for Effective and High-throughput Lossless Data Compression}, ICDE 2012.
+
+\item Isha Arkatkar, John Jenkins, Sriram Lakshminarasimhan, Neil Shah, Eric Schendel, Stephane Ethier, Choong-Seock Chang, Jackie Chen, Hemant Kolla, Scott Klasky, Robert Ross, Nagiza Samatova. \emph{Analytics-driven Lossless Data Compression for Rapid In-situ Indexing, Storing and Querying}, DEXA 2012.
+
+\item Ye Jin, Sriram Lakshminarasimhan, Neil Shah, Zhenhuan Gong, Choong-Seock Chang, Jackie Chen, Stephane Ethier, Hemant Kolla, Seung-Hoe Ku, Scott Klasky, Robert Latham, Robert Ross, Karen Schuchardt, Nagiza Samatova. \emph{S-preconditioner for Multi-fold Data Reduction with Guaranteed User-controlled Accuracy}, ICDM 2011.
+
+\item Sriram Lakshminarasimhan, Neil Shah, Stephane Ethier, Scott Klasky, Robert Latham, Robert Ross, Nagiza Samatova. \emph{Compressing the Incompressible with ISABELA: In-situ Reduction of Spatio-Temporal Data}, EuroPar 2011.
+
+\item Neil Shah, Yekaterina Shpanskaya, Choong-Seock Chang, Seung-Hoe Ku, Anatoli Melechko, Nagiza Samatova. \emph{Automatic and Statistically Robust Spatio-temporal Detection and Tracking of Fusion Plasma Fronts}, SciDAC 2010.
+
+\item  Paul Breimyer, Guruprasad Kora, William Hendrix, Neil Shah, Nagiza Samatova. \emph{pR: Automatic Parallelization of Data-parallel Statistical Computing Codes for R in Hybrid Multi-node and Multi-core Environments}, IADIS 2009.
+
+\end{etaremune}
+
+\subsection*{\bf {Refereed Journal Publications}}
+\begin{etaremune}[itemsep=0pt,parsep=0pt]
+
+\item Zhichun Guo, Tong Zhao, Yozen Liu, Kaiwen Dong, William Shiao, Neil Shah, Nitesh Chawla. \emph{Node Duplication Improves Cold-start Link Prediction}, Transactions on Machine Learning Research (TMLR) 2025.
+
+\item Yushun Dong, William Shiao, Yozen Liu, Jundong Li, Neil Shah, Tong Zhao. \emph{Do Graph Neural Networks Improve Node Representation Learning for All?}, Data-Centric Machine Learning Research (DMLR) 2025.
+
+\item Feng Xia, Renaud Lambiotte, Neil Shah, Hanghang Tong, Irwin King. \emph{Guest Editorial: Special Issue on Graph Learning}, IEEE Transactions on Neural Networks and Learning Systems (TNNLS) 2024.
+
+\item Diego Gomez-Zara, Yozen Liu, Leonardo Neves, Neil Shah, Maarten Bos. \emph{Unpacking the exploration–exploitation tradeoff on Snapchat: The relationships between users’ exploration-exploitation interests and server log data}, Computers in Human Behavior 2023.
+
+\item Tong Zhao, Tianwen Jiang, Neil Shah, Meng Jiang.  \emph{A Synergistic Approach for Graph Anomaly Detection with Pattern Mining and Feature Learning}, IEEE Transactions on Neural Networks and Learning Systems (TNNLS) 2021.
+
+\item Yike Liu, Tara Safavi, Neil Shah, Danai Koutra. \emph{Reducing Large Graphs to Small Supergraphs: A Unified Approach}, Social Network Analysis and Mining (SNAM) 2018.
+
+\item Bryan Hooi, Kijung Shin, Hyun Ah Song, Alex Beutel, Neil Shah, Christos Faloutsos. \emph{Graph-based Fraud Detection in the Face of Camouflage}, Transactions on Knowledge Discovery from Data (TKDD) 2017
+
+\item Neil Shah, Danai Koutra, Lisa Jin, Tianmin Zou, Brian Gallagher, Christos Faloutsos. \emph{On Summarizing Large-Scale Dynamic Graphs}, Data Engineering Bulletin 2017.
+
+\item Danai Koutra, Neil Shah, Joshua T. Vogelstein, Brian Gallagher, Christos Faloutsos. \emph{DeltaCon: A Principled Massive-Graph Similarity Function with Attribution}, Transactions on Knowledge and Data Discovery 2015.
+
+\item John Jenkins, Isha Arkatkar,  Sriram Lakshminarasimhan, David Boyuka, Eric Schendel, Neil Shah, Stephane Ethier, Choong-Seock Chang, Jackie Chen, Hemant Kolla, Scott Klasky, Robert Ross, Nagiza Samatova. \emph{ALACRITY: Analytics-driven Lossless Data Compression for Rapid In-situ Indexing, Storing, and Querying}, Transactions on Large-Scale Data-and Knowledge-Centered Systems (TLDKS) 2013.
+
+\item Sriram Lakshminarasimhan, Neil Shah, Stephane Ethier, Scott Klasky, Robert Latham, Robert Ross, Nagiza Samatova. \emph{ISABELA for Effective In-situ Compression of Scientific Data}, Concurrency and Computation: Practice and Experience 2011.
+	
+\end{etaremune}
+
+\subsection*{\bf {Refereed Workshop Publications}}
+\begin{etaremune}[itemsep=1pt,parsep=0pt]
+
+\item \emph{Improving Out-of-Vocabulary Handling in Recommendation Systems}, TheWebConf RelWeb 2025.
+\item Matthew Kolodner, Mingxuan Ju, Zihao Fan, Tong Zhao, Elham Ghazizadeh, Yan Wu, Neil Shah and Yozen Liu. \emph{Robust Training Objectives Improve Embedding-based Retrieval in Industrial Recommendation Systems}, RecSys RobustRecSys 2024. 
+\item Mingxuan Ju, Tong Zhao, Wenhao Yu, Neil Shah, Yanfang Ye.  \emph{GraphPatcher: Mitigating Degree Bias for Graph Neural Networks via Test-time Augmentation}, TheWebConf DCAI 2024.
+
+\item Pau Kung, Zihao Fan, Tong Zhao, Yozen Liu, Lucas Lai, Jiahui Shi, Yan Wu, Neil Shah, Jun Yu. \emph{Improving Embedding-Based Retrieval in Friend Recommendation with ANN Query Expansion}, TheWebConf DCAI 2024.
+
+\item Neil Shah. \emph{Scale-Free, Attributed and Class-Assortative Graph Generation to Facilitate Introspection of Graph Neural Networks}, KDD MLG 2020.
+
+\item Rohan Kumar, Mohit Kumar, Neil Shah, Christos Faloutsos. \emph{Did We Get It Right? Predicting Query Performance in E-commerce Search}, SIGIR eCom 2018.
+
+\item Yike Liu, Tara Safavi, Neil Shah, Danai Koutra. \emph{Reducing Million-Node Graphs to a Few Structural Patterns: A Unified Approach}, KDD MLG 2016.
+
+\item Neil Shah, Alex Beutel, Bryan Hooi, Leman Akoglu, Stephan Gunnemann, Disha Makhija, Mohit Kumar, Christos Faloutsos. \emph{EdgeCentric: Anomaly Detection in Edge-Attributed Networks}, ICDM DMCS 2016.
+
+\item Yike Liu, Neil Shah, Danai Koutra. \emph{An Empirical Comparison of the Sumarization Power of Graph Clustering Methods}, NIPS NSIS 2015.
+
+\end{etaremune}
+
+\subsection*{\bf {Surveys}}
+
+\begin{etaremune}[itemsep=0pt,parsep=0pt]
+
+\item Haoyu Han, Yu Wang, Harry Shomer, Kai Guo, Jiayuan Ding, Yongjia Lei, Mahantesh Halappanavar, Ryan A. Rossi, Subhabrata Mukherjee, Xianfeng Tang, Qi He, Zhigang Hua, Bo Long, Tong Zhao, Neil Shah, Amin Javari, Yinglong Xia, Jiliang Tang. \emph{Retrieval-Augmented Generation with Graphs (GraphRAG)}, arXiv (2024)
+
+
+\item Tong Zhao, Wei Jin, Yozen Liu, Yingheng Wang, Gang Liu, Stephan Günnemann, Neil Shah, Meng Jiang.  \emph{Graph Data Augmentation for Graph Machine Learning}, IEEE Data Engineering Bulletin (2023)
+\item Srijan Kumar, Neil Shah.  \emph{False Information on the Web and Social Media}, arXiv (2018).
+\end{etaremune}
+
+\subsection*{\bf {Tutorials}}
+
+\begin{etaremune}[itemsep=0pt,parsep=0pt]
+
+\item Yozen Liu, Tong Zhao, Matthew Kolodner, Kyle Montemayor, Shubham Vij, Neil Shah. \emph{Training Industry-Scale Graph Neural Networks with GiGL}, KDD 2025.
+
+\item Rui Xue, Haoyu Han, Tong Zhao, Neil Shah, Jiliang Tang, Xiaorui Liu. \emph{Large-Scale Graph Neural Networks: The Past and New Frontiers}, AAAI 2024.
+
+\item Rui Xue, Haoyu Han, Tong Zhao, Neil Shah, Jiliang Tang, Xiaorui Liu. \emph{Large-Scale Graph Neural Networks: The Past and New Frontiers}, SDM 2024.
+
+\item Rui Xue, Haoyu Han, Tong Zhao, Neil Shah, Jiliang Tang, Xiaorui Liu. \emph{Large-Scale Graph Neural Networks: The Past and New Frontiers}, KDD 2023.
+
+\item Tong Zhao, Kaize Ding, Wei Jin, Gang Liu, Meng Jiang, Neil Shah. \emph{Augmentation Methods for Graph Learning}, SDM 2023.
+\end{etaremune}
+
+\subsection*{\bf {Book Chapters}}
+
+\begin{etaremune}[itemsep=0pt,parsep=0pt]
+
+\item Sara Abdali, Gisel Bastidas, Neil Shah, Evangelos Papalexakis. \emph{Tensor Embeddings for Content-Based Misinformation Detection with Limited Supervision}, Disinformation, Misinformation, and Fake News in Social Media.
+\item Neil Shah. \emph{Introduction to R},
+\href{http://www.crcpress.com/product/isbn/9781439860847}{Practical Graph Mining with R}.
+
+\item Kanchana Padmanabhan, Sriram Lakshminarasimhan, Zhenhuan Gong, John Jenkins, Neil Shah, Eric Schendel, Isha Arkatkar, Robert Ross, Scott Klasky, Nagiza Samatova. \emph{In-situ Analysis in Support of Exploratory Scientific Discovery in Data-Intensive Science},
+\href{http://www.crcpress.com/product/isbn/9781439881392}{Data-Intensive Science}.
+
+\end{etaremune}
+
+
+\section*{\bf \textsc{Academic Experience}}
+\vspace{-5mm}\HRule
+
+\subsection*{\bf {Invited Talks}}
+\begin{itemize}
+  \item Panelist (\emph{"AI-Augmented Academia: Research Innovations and Career Planning for Tomorrow’s Workforce"} at KDD Doctoral Consortium (2025)
+  \item Panelist (\emph{"From Lists to Dialogues: Rethinking Personalization with Generative AI"} at KDD Workshop on Generative AI for Personalization (2025)
+  \item Panelist (\emph{"From Research to Product"}) at SIGIR Workshop on E-Commerce (2025)
+  \item Panelist (\emph{"Is Search Dead? The rise or demise of search in the era of LLMs"}) at SIGIR (2025) 
+  \item Panelist for UCR exploreCSR Workshop (2024)
+  \item Keynote Speaker for KDD Undergraduate Consortium (2024)
+  \item Panelist at KDD Graph Learning Benchmarks (GLB) Workshop (2023)
+  \item Invited Speaker at Samsung Research (2023)
+  \item Keynote Speaker at RE-WORK AI Summit West (2023)
+  \item Panel Moderator at KDD Misinformation and Misbehavior (MIS2-TrueFact) Workshop (2022)
+  \item Invited Panelist at KDD Deep Learning on Graphs (DLG) Workshop (2022)
+  \item Keynote Speaker for KDD Deep Learning on Graphs (DLG) Workshop (2022)
+  \item Panel Moderator at TigerGraph AI Summit (2022) 
+  \item Invited Speaker at WSDM (2022) 
+  \item Invited Panelist at the Knowledge Graph Conference (2022)
+  \item Invited Speaker at the Knowledge Graph Conference (2022)
+  \item Invited Speaker at UC Riverside Computer Science and Engineering (CSE) Colloqium (2022)
+  \item Keynote Speaker for WSDM Machine Learning on Graphs  (MLoG) Workshop (2022)
+  \item Panelist for UCR exploreCSR Workshop (2022)
+  \item Invited Speaker Pinterest Trust and Safety Summit (2021)
+  \item Panel Moderator for KDD Outlier Detection and Discovery (ODD) Workshop (2021)
+  \item Keynote Speaker for KDD Machine Learning in Finance (MLF) Workshop (2021)
+  \item Keynote Speaker for SDM Doctoral Consortium (2021)
+  \item Keynote Speaker for SDM Minisymposium on Dynamic Networks (2020)
+  \item Keynote Speaker for ICDM Doctoral Consortium (2019)
+  \item Keynote Speaker for WWW CyberSafety Workshop (2018)
+  \item Keynote Speaker for KDD Outlier Detection De-constructed Workshop (2018)
+  \item Keynote Speaker for ECML-PKDD PhD Forum (2018)
+\end{itemize}
+
+\subsection*{\bf {Service}}
+
+\subsubsection*{\bf {Conference Organization}}
+\begin{itemize}
+  \item Organizing Committee for CODS-COMAD: Program Chair (2025)
+  \item Organizing Committee for SDM: Sponsorship Chair 2025
+  \item Organizing Committee for KDD: Hands-On Tutorial Chair (2023, 2024)
+  \item Organizing Committee for ICWSM: Sponsorship Chair 2023
+  \item Organizing Committee for WSDM: Cup Chair 2020, Cup Chair 2022
+  \item Organizing Committee for ASONAM: Program Chair (2019)
+  \item Organizer for KDD Generative AI for Recommender Systems and Personalization (GenAI4RecP) Workshop (2025)
+  \item Organizer for KDD Federated Learning with Graph Data (FedGraph) Workshop (2024, 2025)
+  \item Organizer for ICDM Mining and Learning on Graphs (MLoG) Workshop (2022, 2023)
+  \item Organizer for KDD Mining and Learning with Graphs (MLG) Workshop (2022, 2023)
+  \item Organizer for CIKM Federated Learning with Graph Data (FedGraph) Workshop (2022)
+  \item Organizer for KDD Misinformation and Misbehavior Mining (MIS2) Workshop (2021, 2022)
+  \item Organizer for TheWebConf CyberSafety Workshop (2019, 2020)
+  \item Session Chair for TheWebConf: ``Security and Privacy'' (2018), ``Graph Models'' (2021)
+  \item Session Chair for KDD: ``Graph Algorithms''  (2020), ``Graphs and Networks'' (2021), ``Graph Learning \& Social Network'' (2022)
+  \item Session Chair for DSAA: ``Subgraphs'' (2019)
+  \item Session Chair for ICDM ``Social'' track (2016)
+\end{itemize}
+
+\subsubsection*{\bf {Peer Review}}
+
+\begin{itemize}
+  \item Area Chair for NeurIPS (2025)
+  \item Area Chair for ICLR (2025, 2026)
+  \item Area Chair for KDD (2022, 2025, 2026)
+  \item Area Chair for TheWebConf (2024, 2025, 2026)
+  \item Area Chair for LoG (2022, 2023, 2024, 2025)
+  \item Senior Program Committee for AAAI (2023, 2024, 2025, 2026)
+  \item Senior Program Committee for PAKDD (2023)
+  \item Senior Program Committee for SDM (2022, 2023, 2024, 2025)
+  \item Senior Program Committee for WSDM (2022, 2023, 2024, 2025)
+  \item Senior Program Committee for CIKM (2021, 2022, 2023, 2024, 2025) 
+  \item Early Career Data Mining Award Committee for SDM (2023, 2024)
+  \item Best Paper Award Committee for SDM (2023, 2024)
+  \item Program Committee for ICLR (2024)
+  \item Program Committee for NeurIPS (2023, 2024)
+  \item Program Committee for ICDM (2022)
+  \item Program Committee for ASONAM (2022)
+  \item Program Committee for WSDM (2019, 2020, 2021)
+  \item Program Committee for KDD (2019, 2020, 2021)
+  \item Program Committee for TheWebConf (2015, 2018, 2020, 2021, 2022)
+  \item Program Committee for SDM (2018, 2019, 2020, 2021)
+  \item Program Committee for CIKM (2017, 2020)
+  \item Reviewer for ACM TKDD Journal (2018, 2019, 2020)
+  \item Reviewer for Springer DAMI Journal (2018, 2019)
+  \item Reviewer for ACM TSOC Journal (2018, 2019)
+  \item Reviewer for ACM TKDE Journal (2016, 2017)
+  \item Reviewer for CSCW (2019)
+  \item Reviewer for CHI (2019)
+  \item Reviewer for WISE (2014)
+  \item Reviewer for IPDPS (2011)
+  \item Program Committee for WWW Graph Learning and Benchmarks (GLB) Workshop (2022, 2023)
+  \item Program Committee for WSDM Doctoral Consortium (2020)
+  \item Program Committee for ICML LXAI Workshop (2020)
+  \item Program Committee for ICDM Demo Session (2018, 2019)
+  \item Program Committee for WSDM Misinformation and Misbehavior Mining Workshop (2018)
+  \item Program Committee for KDD MLG Workshop (2017, 2018, 2019)
+  \item Program Committee for WWW Graph Learning Benchmarks (GLB) Workshop (2021)
+  \item Program Committee for RecSys Workshop on Graph Neural Networks for RecSys (GreS) (2021)
+ \item Program Committee for WSDM HeteroNAM Workshop (2017, 2018)
+ \item Program Committee for ICDM PhD Forum (2017)
+ \item Program Committee for CIKM PhD Forum (2019)
+
+\end{itemize}
+
+\subsection*{\bf {Mentorship}}
+\subsubsection*{Internships and Student Advisory Roles}
+\begin{itemize}
+\item Mr. Jingzhe Liu (intern at Snap Research, 2025)
+\item Mr. Geon Lee (intern at Snap Research, 2025)
+\item Mr. Kulin Shah (intern at Snap Research, 2025)
+\item Ms. Xingyue Huang (intern at Snap Research, 2025)
+\item Ms. Xueying Ding (intern at Snap Research, 2025)
+ \item Mr. Ngoc Bui (intern at Snap Research, 2024)
+ \item Ms. Xinyi Wu (intern at Snap Research, 2024)
+ \item Mr. Donald Loveland (intern at Snap Research, 2024)
+ \item Ms. Runjin Chen (intern at Snap Research, 2024)
+ \item Ms. Jing Zhu (intern at Snap Research, 2024)
+ \item Mr. Haitao Mao (intern at Snap Research, 2024)
+ \item Ms. Agostina Calabrese (intern at Snap Research, 2023)
+ \item Mr. Yushun Dong (intern at Snap Research, 2023)
+ \item Mr. Vijay Prakash Dwivedi (intern at Snap Research, 2023)
+ \item Mr. Mingxuan Ju (intern at Snap Research, 2023) 
+ \item Ms. Zhichun Guo (intern at Snap Research, 2022)
+ \item Mr. Vedant Bhatia (intern at Snap, 2022)
+ \item Mr. Yiwei Wang (intern at Snap Research, 2022)
+ \item Mr. William Shiao (intern at Snap Research, 2022 \& 2023)
+ \item Mr. Xiaotian Han (intern at Snap Research, 2022)
+ \item Mr. Cazamere Comrie (intern at Snap Research, 2021)
+ \item Mr. Lingxiao Zhao (intern at Snap Research, 2021)
+ \item Mr. Wei Jin (intern at Snap Research, 2021 \& 2022)
+ \item Mr. Shichang Zhang (intern at Snap Research, 2021)
+ \item Mr. Yingtong Dou (intern at Snap Research, 2021)
+ \item Mr. Yozen Liu (RA at Snap Research, 2020)
+ \item Ms. Qi Yang (intern at Snap Research, 2020)
+ \item Mr. Satyaki Sikdar (intern at Snap Research, 2020)
+ \item Mr. Yao Ma (intern at Snap Research, 2020)
+ \item Mr. Aravind Sankar (intern at Snap Research, 2020)
+  \item Mr. Tong Zhao (intern at Snap Research, 2020)
+ \item Mr. Nicholas Vincent (intern at Snap Research, 2020)
+ \item Mr. Farhan Asif Chowdhury (intern at Snap Research, 2020)
+ \item Mr. Koustuv Saha (intern at Snap Research, 2020)
+ \item Ms. Brihi Joshi (intern at Snap Research, 2019)
+ \item Mr. Shiyan Yan (intern at Snap Research, 2019)
+ \item Mr. Xianfeng Tang (intern at Snap Research, 2019 \& 2020)
+ \item Ms. Parisa Kaghzagaran (intern at Snap Research, 2019)
+ \item Mr. Himel Dev (intern at Snap Research, 2019)
+ \item Mr. Anis Zaman (intern at Snap Research, 2019)
+ \item Mr. Can Liu (intern at Snap Research, 2019)
+ \item Mr. Dipankar Niranjan (BS student, IIIT Delhi, 2018)
+ \item Ms. Shreya Jain (BS student, IIIT Delhi, 2018)
+ \item Mr. Hamed Nilforoshan (intern at Snap Research, 2018)
+ \item Ms. Hana Habib (intern at Snap Research, 2018)
+ \item Mr. Hemank Lamba (intern at Snap Research, 2018)
+ \item Mr. Rohan Kumar (visiting CS student at CMU, 2017)
+ \item Ms. Qicheng Huang (EE PhD student at CMU, 2017)
+ \item Ms. Chenlei Fang (EE PhD student at CMU, 2017)
+ \item Mr. Tianmin Zou (CS MS student at CMU, 2017)
+\end{itemize}
+
+\subsubsection*{Thesis Supervision}
+\begin{itemize}
+ \item Committee Member for Mr. Haitao Mao (2024)
+ \item Committee Member for Mr. Harry Shomer (2024)
+ \item Committee Member for Mr. Lingxiao Zhao (2024)
+ \item Committee Member for Mr. William Shiao (2024)
+ \item Committee Member for Ms. Zhichun Guo (2023)
+ \item Committee Member for Mr. Wei Jin (2023)
+ \item Committee Member for Mr. Yingtong Dou (2021)
+ \item Committee Member for Mr. Aravind Sankar (2021)
+ \item Committee Member for Mr. Tong Zhao (2020)
+\end{itemize}
+
+\subsection*{\bf {Funding}}
+\begin{itemize}
+\item Contributed towards Flipkart faculty grant (with CMU: Bryan Hooi, Dhivya Eswaran, Christos Faloutsos)
+\item Contributed towards Wharton Customer Analytics Initiative proposal ``Fraud Detection through Mining Dynamic Behavior for Group Anomalies'' (with CMU: Alex Beutel and Christos Faloutsos)
+\item Contributed towards PNC Center for Financial Services proposal PF15003: ``Fraud Detection in Financial Data'' (with CMU: Alex Beutel and Christos Faloutsos)
+\item Contributed towards proposal DOE-NNSA-30788.1.1990222 ``Quantifying Network Changes'' (with CMU: Danai Koutra and Christos Faloutsos)
+\item Contributed towards proposal NSF IIS-1028746 ``Collaborative Research:  Understanding Climate Change: A Data Driven Approach'' (with NCSU: Nagiza Samatova and Fredrick Semazzi)
+\end{itemize}
+
+\subsection*{\bf {Teaching}}
+\begin{itemize}
+
+\item Guest Lecture ``Improving the Scalability of Graph Neural Networks'' for Carnegie Mellon  University 11-741 Machine Learning for Text and Graph-based Mining, by Prof. Yiming Yang (2024)
+
+\item Seminar Talk ``Improving the Scalability of Graph Neural Networks'' for Brandeis University Machine Learning Seminar (2024)
+
+\item Guest Lecture ``Improving the Scalability of Graph Neural Networks'' for Georgia Institute of Technology ISYE 4803 Network Science and Analysis, by Prof. Tejas Santanam (2023)
+
+\item Guest Lecture ``Improving the Scalability of Graph Neural Networks'' for Georgia Institute of Technology CSE 6240: Web Search and Text Mining, by Prof. Srijan Kumar (2023)
+
+\item Guest Lecture ``Improving the Scalability of Graph Neural Networks'' for Michigan State University CSE 482 Big Data Analysis, by Prof. Jiliang Tang (2022)
+
+\item Guest Lecture ``Machine Learning on Graphs with Scarce Labels'' for Rensselaer Polytechnic Institute MGMT-6560-02 Introduction to Machine Learning Applications, by Prof. Lydia Manikonda (2021)
+
+\item Guest Lecture ``Machine Learning on Graphs with Scarce Labels'' for Rensselaer Polytechnic Institute MGMT-6560-02 Introduction to Machine Learning Applications, by Prof. Lydia Manikonda (2021)
+
+\item Guest Lecture ``Mining Misbehavior on Large-Scale Social Platforms'' for Vanderbilt CS-5981-06 Social Network Analysis, by Prof. Tyler Derr (2020)
+
+\item Guest Lecture ``A Foray into Graph Mining'' for USC CSCI-699 Introduction to Information Extraction, by Prof. Xiang Ren (2019)
+
+\item Guest Lecture ``Graph Mining for Fraud Detection'' for CMU 15-300 Research and Innovation in Computer Science, by Prof. Todd Mowry (2015)
+
+\item Teaching Assistant for CMU 15-300 Research and Innovation in Computer Science, by Prof. Todd Mowry (2015)
+
+\item Teaching Assistant for CMU 15-826 Multimedia Databases and Data Mining, by Prof. Christos Faloutsos (2014)
+\end{itemize}
+
+\section*{\bf \textsc{Technical Skills}}
+\vspace{-5mm}\HRule
+\begin{itemize}
+\item Cloud Platforms: GCP, AWS
+\item Programming Languages/Tools: Python, Java, C, C++, x86 Assembly
+\item Web Languages/Tools: SQL, HTML, PHP, JavaScript, CSS, WordPress
+\item Engineering Tools: Matlab, R
+\item Typesetting Tools: \LaTeX, Microsoft Office, LibreOffice
+\item Source Code Management Tools: Git, Subversion
+\item Operating Systems: Mac OSX, Ubuntu Linux, Microsoft Windows
+\end{itemize}
+
+\section*{\bf \textsc{Graduate Coursework}}
+\vspace{-5mm}\HRule
+\subsection*{\bf {Carnegie Mellon University}}
+
+\begin{itemize}
+\item \emph{Advanced and Distributed Operating Systems} with Prof. David Andersen,
+
+\item \emph{Multimedia Databases and Data Mining} with Prof. Christos Faloutsos
+
+\emph{Graduate Algorithms} with Prof. Manuel Blum
+
+\item \emph{Machine Learning} with Profs. Barnabas Poczos and Aarti Singh
+
+\item \emph{Randomized Algorithms} with Prof. Bernhard Haeupler
+
+\item \emph{Programming Language Semantics} with Prof. Andr{\'e} Platzer
+\end{itemize}
+
+
+\subsection*{\bf {North Carolina State University}}
+
+\begin{itemize}
+\item \emph{Automated Learning \& Data Analysis} with Prof. Nagiza Samatova 
+ 
+\item \emph{Software Engineering} with Prof. Tao Xie, 
+
+\item \emph{Database Management Concepts \& Systems} with Prof. Ting Yu
+\end{itemize}
+
+%\section*{\bf \textsc{Research Interests}}
+%\HRule
+%%\paragraph{}
+%\begin{itemize}
+% \item Anomaly and fraud detection on large social and information networks
+% \item User behavior on social networks
+% \item Applications of data mining and network analysis
+%\end{itemize}
+
+\section*{\bf \textsc{References}}
+\vspace{-5mm}\HRule
+\vspace{1em}
+Available upon request.
+
+\bigskip
+
+
+\end{document}
+
