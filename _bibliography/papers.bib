@@ -6,7 +6,7 @@
   abbr = {preprint},
   pdf = {https://arxiv.org/pdf/2604.17555},
   arxiv = {2604.17555},
-  preview = {placeholder.png},
+  preview = {zeng2026cosearchjoin.png},
   code = {https://github.com/snap-research/CoSearch},
   abstract = {Agentic search -- the task of training agents that iteratively reason, issue queries, and synthesize retrieved information to answer complex questions -- has achieved remarkable progress through reinforcement learning (RL). However, existing approaches such as Search-R1, treat the retrieval system as a fixed tool, optimizing only the reasoning agent while the retrieval component remains unchanged. A preliminary experiment reveals that the gap between an oracle and a fixed retrieval system reaches up to +26.8\% relative F1 improvement across seven QA benchmarks, suggesting that the retrieval system is a key bottleneck in scaling agentic search performance. Motivated by this finding, we propose CoSearch, a framework that jointly trains a multi-step reasoning agent and a generative document ranking model via Group Relative Policy Optimization (GRPO). To enable effective GRPO training for the ranker -- whose inputs vary across reasoning trajectories -- we introduce a semantic grouping strategy that clusters sub-queries by token-level similarity, forming valid optimization groups without additional rollouts. We further design a composite reward combining ranking quality signals with trajectory-level outcome feedback, providing the ranker with both immediate and long-term learning signals. Experiments on seven single-hop and multi-hop QA benchmarks demonstrate consistent improvements over strong baselines, with ablation studies validating each design choice. Our results show that joint training of the reasoning agent and retrieval system is both feasible and strongly performant, pointing to a key ingredient for future search agents.}
 }
@@ -170,7 +170,8 @@
   year = {2025},
   abbr = {CIKM},
   pdf = {https://dl.acm.org/doi/pdf/10.1145/3746252.3761313},
-  preview = {placeholder.png},
+  preview = {zheng2025pretrainedla.png},
+  code = {https://github.com/zhengzaiyi/MI4Rec},
   abstract = {Recently, pretrained large language models (LLMs) have been widely adopted in recommendation systems to leverage their textual understanding and reasoning abilities to model user behaviors and suggest future items. A key challenge in this setting is that items on most platforms are not included in the LLM's training data. Therefore, existing methods often fine-tune LLMs by introducing auxiliary item tokens to capture item semantics. However, in real-world applications such as e-commerce and short video platforms, the item space evolves rapidly, which gives rise to a cold-start setting, where many newly introduced items receive little or even no user engagement. This poses challenges in both learning accurate item token embeddings and generalizing efficiently to accommodate the continual influx of new items. In this work, we propose a novel meta-item token learning strategy to address both these challenges simultaneously. Specifically, we introduce MI4Rec, an LLM-based approach for recommendation that uses just a few learnable meta-item tokens and an LLM encoder to dynamically aggregate meta-items based on item content. We show that this paradigm allows highly efficient and accurate learning in such challenging settings. Extensive experiments on Yelp and Amazon reviews datasets demonstrate the effectiveness of MI4Rec in both warm-start and cold-start recommendations. Notably, MI4Rec achieves an average performance improvement of 20.4\% in Recall and NDCG compared to the best-performing baselines. The implementation of MI4Rec is available at https://github.com/zhengzaiyi/MI4Rec.}
 }
 
