@@ -56,6 +56,7 @@
   year = {2026},
   abbr = {SIGIR},
   preview = {ju2026semanticidsf.png},
+  selected = {true},
   code = {https://github.com/snap-research/GRID},
   pdf = {https://arxiv.org/pdf/2604.03949},
   arxiv = {2604.03949},
@@ -107,6 +108,7 @@
   pdf = {https://arxiv.org/pdf/2509.13648},
   arxiv = {2509.13648},
   preview = {lee2026sequentialda.png},
+  selected = {true},
   code = {https://github.com/snap-research/GenPAS},
   abstract = {Generative recommendation plays a crucial role in personalized systems, predicting users' future interactions from their historical behavior sequences. A critical yet underexplored factor in training these models is data augmentation, the process of constructing training data from user interaction histories. By shaping the training distribution, data augmentation directly and often substantially affects model generalization and performance. Nevertheless, in much of the existing work, this process is simplified, applied inconsistently, or treated as a minor design choice, without a systematic and principled understanding of its effects. Motivated by our empirical finding that different augmentation strategies can yield large performance disparities, we conduct an in-depth analysis of how they reshape training distributions and influence alignment with future targets and generalization to unseen inputs. To systematize this design space, we propose GenPAS, a generalized and principled framework that models augmentation as a stochastic sampling process over input-target pairs with three bias-controlled steps: sequence sampling, target sampling, and input sampling. This formulation unifies widely used strategies as special cases and enables flexible control of the resulting training distribution. Our extensive experiments on benchmark and industrial datasets demonstrate that GenPAS yields superior accuracy, data efficiency, and parameter efficiency compared to existing strategies, providing practical guidance for principled training data construction in generative recommendation. Our code is available at https://github.com/snap-research/GenPAS.}
 }
@@ -320,6 +322,7 @@
   pdf = {https://arxiv.org/pdf/2504.21838},
   arxiv = {2504.21838},
   preview = {ju2025learninguniv.png},
+  selected = {true},
   battle_tested = {true},
   abstract = {The development of powerful user representations is a key factor in the success of recommender systems (RecSys). Online platforms employ a range of RecSys techniques to personalize user experience across diverse in-app surfaces. User representations are often learned individually through user's historical interactions within each surface and user representations across different surfaces can be shared post-hoc as auxiliary features or additional retrieval sources. While effective, such schemes cannot directly encode collaborative filtering signals across different surfaces, hindering its capacity to discover complex relationships between user behaviors and preferences across the whole platform. To bridge this gap at Snapchat, we seek to conduct universal user modeling (UUM) across different in-app surfaces, learning general-purpose user representations which encode behaviors across surfaces. Instead of replacing domain-specific representations, UUM representations capture cross-domain trends, enriching existing representations with complementary information. This work discusses our efforts in developing initial UUM versions, practical challenges, technical choices and modeling and research directions with promising offline performance. Following successful A/B testing, UUM representations have been launched in production, powering multiple use cases and demonstrating their value. UUM embedding has been incorporated into (i) Long-form Video embedding-based retrieval, leading to 2.78\% increase in Long-form Video Open Rate, (ii) Long-form Video L2 ranking, with 19.2\% increase in Long-form Video View Time sum, (iii) Lens L2 ranking, leading to 1.76\% increase in Lens play time, and (iv) Notification L2 ranking, with 0.87\% increase in Notification Open Rate.}
 }
@@ -703,6 +706,7 @@
   abbr = {SIRIP},
   pdf = {FriendingEBR.SIGIR.23.pdf},
   preview = {friend-rec-ebr-arch.png},
+  selected = {true},
   battle_tested = {true},
   abstract = {Friend recommendation systems in online social and professional networks such as Snapchat helps users find friends and build connections, leading to better user engagement and retention. Traditional friend recommendation systems take advantage of the principle of locality and use graph traversal to retrieve friend candidates, e.g. Friends-of-Friends (FoF). While this approach has been adopted and shown efficacy in companies with large online networks such as Linkedin and Facebook, it suffers several challenges: (i) discrete graph traversal offers limited reach in cold-start settings, (ii) it is expensive and infeasible in realtime settings beyond 1 or 2 hop requests owing to latency constraints, and (iii) it cannot well-capture the complexity of graph topology or connection strengths, forcing one to resort to other mechanisms to rank and find top-K candidates. In this paper, we proposed a new Embedding Based Retrieval (EBR) system for retrieving friend candidates, which complements the traditional FoF retrieval by retrieving candidates beyond 2-hop, and providing a natural way to rank FoF candidates. Through online A/B test, we observe statistically significant improvements in the number of friendships made with EBR as an additional retrieval source in both low- and high-density network markets. Our contributions in this work include deploying a novel retrieval system to a large-scale friend recommendation system at Snapchat, generating embeddings for billions of users using Graph Neural Networks, and building EBR infrastructure in production to support Snapchat scale.}
 }
@@ -896,6 +900,7 @@
   arxiv = {2110.03753},
   code = {https://github.com/LingxiaoShawn/GNNAsKernel},
   preview = {from-stars-to-subgraphs-gnn.png},
+  selected = {true},
   abstract = {Message Passing Neural Networks (MPNNs) are a common type of Graph Neural Network (GNN), in which each node's representation is computed recursively by aggregating representations (messages) from its immediate neighbors akin to a star-shaped pattern. MPNNs are appealing for being efficient and scalable, how-ever their expressiveness is upper-bounded by the 1st-order Weisfeiler-Lehman isomorphism test (1-WL). In response, prior works propose highly expressive models at the cost of scalability and sometimes generalization performance. Our work stands between these two regimes: we introduce a general framework to uplift any MPNN to be more expressive, with limited scalability overhead and greatly improved practical performance. We achieve this by extending local aggregation in MPNNs from star patterns to general subgraph patterns (e.g.,k-egonets):in our framework, each node representation is computed as the encoding of a surrounding induced subgraph rather than encoding of immediate neighbors only (i.e. a star). We choose the subgraph encoder to be a GNN (mainly MPNNs, considering scalability) to design a general framework that serves as a wrapper to up-lift any GNN. We call our proposed method GNN-AK(GNN As Kernel), as the framework resembles a convolutional neural network by replacing the kernel with GNNs. Theoretically, we show that our framework is strictly more powerful than 1&2-WL, and is not less powerful than 3-WL. We also design subgraph sampling strategies which greatly reduce memory footprint and improve speed while maintaining performance. Our method sets new state-of-the-art performance by large margins for several well-known graph ML tasks; specifically, 0.08 MAE on ZINC,74.79\% and 86.887\% accuracy on CIFAR10 and PATTERN respectively.}
 }
 
@@ -980,6 +985,7 @@
   abbr = {CIKM},
   pdf = {UGNN.CIKM.21.pdf},
   preview = {graph-signal-denoising.png},
+  selected = {true},
   abstract = {Graph Neural Networks (GNNs) have risen to prominence in learning representations for graph structured data. A single GNN layer typically consists of a feature transformation and a feature aggregation operation. The former normally uses feed-forward networks to transform features, while the latter aggregates the transformed features over the graph. Numerous recent works have proposed GNN models with different designs in the aggregation operation. In this work, we establish mathematically that the aggregation processes in a group of representative GNN models including GCN, GAT, PPNP, and APPNP can be regarded as (approximately) solving a graph denoising problem with a smoothness assumption. Such a unified view across GNNs not only provides a new perspective to understand a variety of aggregation operations but also enables us to develop a unified graph neural network framework UGNN. To demonstrate its promising potential, we instantiate a novel GNN model, ADA-UGNN, derived from UGNN, to handle graphs with adaptive smoothness across nodes. Comprehensive experiments show the effectiveness of ADA-UGNN.}
 }
 
@@ -1172,6 +1178,7 @@
   arxiv = {1908.07087},
   code = {https://github.com/hamedn/SliceNDice},
   preview = {slicendice.png},
+  selected = {true},
   battle_tested = {true},
   abstract = {Given the reach of web platforms, bad actors have considerable incentives to manipulate and defraud users at the expense of platform integrity. This has spurred research in numerous suspicious behavior detection tasks, including detection of sybil accounts, false information, and payment scams/fraud. In this paper, we draw the insight that many such initiatives can be tackled in a common framework by posing a detection task which seeks to find groups of entities which share too many properties with one another across multiple attributes (sybil accounts created at the same time and location, propaganda spreaders broadcasting articles with the same rhetoric and with similar reshares, etc.) Our work makes four core contributions: Firstly, we posit a novel formulation of this task as a multi-view graph mining problem, in which distinct views reflect distinct attribute similarities across entities, and contextual similarity and attribute importance are respected. Secondly, we propose a novel suspiciousness metric for scoring entity groups given the abnormality of their synchronicity across multiple views, which obeys intuitive desiderata that existing metrics do not. Finally, we propose the SliceNDice algorithm which enables efficient extraction of highly suspicious entity groups, and demonstrate its practicality in production, in terms of strong detection performance and discoveries on Snapchat's large advertiser ecosystem (89\% precision and numerous discoveries of real fraud rings), marked outperformance of baselines (over 97\% precision/recall in simulated settings) and linear scalability.}
 }
@@ -1198,6 +1205,7 @@
   code = {https://github.com/hemanklamba/ModelingDwellTime},
   video = {https://www.youtube.com/watch?v=2s9KFYpEVl0},
   preview = {modeling-dwell-time.png},
+  selected = {true},
   battle_tested = {true},
   abstract = {Visual multimedia is one of the most prevalent sources of modern online content and engagement. However, despite its prevalence, little is known about user engagement with such content. For instance, how can we model engagement for a specific content or viewer sample, and across multiple samples? Can we model and discover patterns in these interactions, and detect outlying behaviors corresponding to abnormal engagement? In this paper, we study these questions in depth. Understanding these questions has implications in user modeling and understanding, ranking, trust and safety and more. For analysis, we consider content and viewer dwell time (engagement duration) behaviors with images and videos on Snapchat Stories, one of the largest multimedia-driven social sharing services. To our knowledge, we are the first to model and analyze dwell time behaviors on such media. Specifically, our contributions include (a) individual modeling: we propose and evaluate the ŁFmodel, ŁTmodel and \Vmodel parametric models to describe dwell times of unlooped/looped media and viewers which outperform alternatives, (b) aggregate modeling: we show how to flexibly summarize the respective joint distributions of multivariate parametrized fits across many samples using Vine Copulas in the analog ALFmodel, ALTmodel and AVmodel models, which enable inferences regarding aggregate behavioral patterns, and offer the ability to simulate real-looking engagement data (c) anomaly detection: we demonstrate our aggregate models can robustly detect anomalies present during training ($0.9+$ AUROC across most attack models), and also enable discovery of real dwell time anomalies.}
 }
@@ -1318,6 +1326,7 @@
   abbr = {WWW},
   pdf = {FLOCK.WWW.17.pdf},
   preview = {broadcast-divergence.png},
+  selected = {true},
   battle_tested = {true},
   abstract = {Livestreaming platforms have become increasingly popular in recent years as a means of sharing and advertising creative content. Popular content streamers who attract large viewership to their live broadcasts can earn a living by means of ad revenue, donations and channel subscriptions. Unfortunately, this incentivized popularity has simultaneously resulted in incentive for fraudsters to provide services to astroturf, or artificially inflate viewership metrics by providing fake "live" views to customers. Our work provides a number of major contributions: (a) formulation: we are the first to introduce and characterize the viewbot fraud problem in livestreaming platforms, (b) methodology: we propose FLOCK, a principled and unsupervised method which efficiently and effectively identifies botted broadcasts and their constituent botted views, and (c) practicality: our approach achieves over 98\% precision in identifying botted broadcasts and over 90\% precision/recall against sizable synthetically generated viewbot attacks on a real-world livestreaming workload of over 16 million views and 92 thousand broadcasts. FLOCK successfully operates on larger datasets in practice and is regularly used at a large, undisclosed livestreaming corporation.}
 }
