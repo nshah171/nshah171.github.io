@@ -64,5 +64,5 @@ Auto-regenerates on changes to `_pages/`, `_news/`, `_bibliography/papers.bib`, 
 
 ## Known intentional surprises
 
-- The rendered `/publications/` page sometimes shows one fewer entry than the bib contains — one entry appears filtered (suspected a `hidden` / `pubinfo` flag somewhere). Not a bug to chase unless someone reports a specific missing paper.
 - `cv/vita.log`, `cv/vita.aux`, `cv/vita.out` are tracked from the initial commit but are LaTeX build artifacts. They show up in `git status` after every `make`. Either commit the noise or `git rm --cached` them and add to `.gitignore` — both are valid cleanups.
+- jekyll-scholar's bibtex parser silently drops entries whose abstract has malformed escaping (e.g., `\}\{` from a partially-stripped `\href{}{}`). If a paper is missing from `/publications/`, suspect the abstract field first — the build log warns with `Lexer: unexpected token` at a character offset.
