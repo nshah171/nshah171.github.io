@@ -114,6 +114,7 @@ cv:
       - bullet: "X. Huang, X. Ding, M. Ju, Y. Liu, N. Shah, T. Zhao. *Threshold Differential Attention for Sink-Free, Ultra-Sparse, and Non-Dispersive Language Modeling*. **ACL 2026**."
       - bullet: "J. Zhu, M. Ju, Y. Liu, S. Vij, D. Koutra, N. Shah, T. Zhao. *Beyond Unimodal Perspectives: Generative Retrieval with Multimodal Semantics*. **SIGIR 2026**."
       - bullet: "C. Ju, T. Zhao, L. Neves, L. Collins, B. Kumar, et al. *Semantic IDs for Recommender Systems at Snapchat: Use Cases, Technical Challenges, and Design Choices*. **SIGIR 2026**."
+      - bullet: "Q. Truong, Y. Song, D. Loveland, C. Ju, T. Zhao, N. Shah, J. Tang. *Plain Transformers are Surprisingly Powerful Link Predictors*. **ICML 2026**."
       - bullet: "G. Lee, B. Kumar, C. Ju, T. Zhao, K. Shin, N. Shah, L. Collins. *Sequential Data Augmentation for Generative Recommendation*. **WSDM 2026**."
       - bullet: "Z. Zheng, Y. Zhu, H. Liu, C. Ju, T. Zhao, N. Shah, J. Li. *Pretrained Language Model based Cold-Start Recommendation with Meta-Item Embeddings*. **CIKM 2025**."
       - bullet: "C. Ju, L. Collins, L. Neves, B. Kumar, L. Wang, T. Zhao, N. Shah. *Generative Recommendation with Semantic IDs: A Practitioner's Handbook*. **CIKM 2025**. **Best Paper Award**."

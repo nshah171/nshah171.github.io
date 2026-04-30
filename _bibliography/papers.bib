@@ -64,12 +64,12 @@
   abstract = {Effective item identifiers (IDs) are an important component for recommender systems (RecSys) in practice, and are commonly adopted in many use cases such as retrieval and ranking. IDs can encode collaborative filtering signals within training data, such that RecSys models can extrapolate during the inference and personalize the prediction based on users' behavioral histories. Recently, Semantic IDs (SIDs) have become a trending paradigm for RecSys. In comparison to the conventional atomic ID, an SID is an ordered list of codes, derived from tokenizers such as residual quantization, applied to semantic representations commonly extracted from foundation models or collaborative signals. SIDs have drastically smaller cardinality than the atomic counterpart, and induce semantic clustering in the ID space. At Snapchat, we apply SIDs as auxiliary features for ranking models, and also explore SIDs as additional retrieval sources in different ML applications. In this paper, we discuss practical technical challenges we encountered while applying SIDs, experiments we have conducted, and design choices we have iterated to mitigate these challenges. Backed by promising offline results on both internal data and academic benchmarks as well as online A/B studies, SID variants have been launched in multiple production models with positive metrics impact.}
 }
 
-@article{truong2026plaintransfo,
+@inproceedings{truong2026plaintransfo,
   title = {Plain Transformers are Surprisingly Powerful Link Predictors},
   author = {Quang Truong and Yu Song and Donald Loveland and Clark Ju and Tong Zhao and Neil Shah and Jiliang Tang},
-  journal = {arXiv preprint},
+  booktitle = {International Conference on Machine Learning},
   year = {2026},
-  abbr = {preprint},
+  abbr = {ICML},
   pdf = {https://www.arxiv.org/pdf/2602.01553},
   arxiv = {2602.01553},
   preview = {truong2026plaintransfo.png},
