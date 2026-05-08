@@ -348,6 +348,9 @@ ninja.data = [{
           section: "News",},{id: "news-excited-to-share-our-work-on-plain-transformers-as-scalable-link-predictors-on-graphs-was-accepted-to-icml-2026-see-you-in-seoul",
           title: 'Excited to share our work on plain transformers as scalable link predictors on...',
           description: "",
+          section: "News",},{id: "news-sharing-a-new-preprint-on-expressiveness-limits-in-semantic-id-based-gr-and-how-latent-tokens-can-alleviate-them",
+          title: 'Sharing a new preprint on expressiveness limits in Semantic ID-based GR, and how...',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
