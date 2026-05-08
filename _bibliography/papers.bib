@@ -79,11 +79,14 @@
 @article{hou2026expressivene,
   title = {Expressiveness Limits of Autoregressive Semantic ID Generation in Generative Recommendation},
   author = {Yupeng Hou and Haven Kim and Clark Ju and Eduardo Escoto and Neil Shah and Julian McAuley},
-  journal = {Preprint},
+  journal = {arXiv preprint},
   year = {2026},
   abbr = {preprint},
-  preview = {placeholder.png},
-  abstract = {Generative recommendation (GR) models generate items by autoregressively producing a sequence of discrete tokens that jointly index the target item. While effective in practice, we argue that this formulation suffers from inherent expressiveness limitations. Specifically, token-by-token generation can be viewed as traversing a decoding tree induced by semantic ID tokens, where leaf nodes correspond to candidate items. We observe that the item probabilities produced by GR models are strongly correlated with this tree structure: items that are close in the tree tend to receive similar probabilities for any given user. We further show theoretically that such structural correlations prevent GR models from representing even simple user-item preference patterns and item-item similarity relationships. To mitigate this issue, we propose a simple modification to the standard GR framework: requiring the model to predict an additional token before generating the semantic IDs. This change introduces multiple paths between items with different distances in the decoding tree, thereby improving model expressiveness, leading to an average of $3.45\%$ relative improvement on NDCG@10. Our code will be publicly available.}
+  pdf = {https://arxiv.org/pdf/2605.06331},
+  arxiv = {2605.06331},
+  preview = {hou2026expressivene.png},
+  code = {https://github.com/hyp1231/Latte},
+  abstract = {Generative recommendation (GR) models generate items by autoregressively producing a sequence of discrete tokens that jointly index the target item. However, this autoregressive generation process also induces a structured decoding space whose impact on model expressiveness remains underexplored. Specifically, token-by-token generation can be viewed as traversing a decoding tree induced by semantic ID tokens, where leaf nodes correspond to candidate items. We observe that the item probabilities produced by GR models are strongly correlated with this tree structure: items that are close in the tree tend to receive similar probabilities for any given user, making it difficult to distinguish among them based on user-specific preferences. We further show theoretically that such structural correlations prevent GR models from representing even simple patterns that can be well captured by conventional collaborative filtering models. To mitigate this issue, we propose Latte, a simple modification that injects a latent token before each semantic ID, reshaping the decoding space from a single tree into multiple latent-token-conditioned trees. This design creates multiple paths with varying tree distances between items, relaxing tree-induced probability coupling and yielding an average of $3.45\%$ relative improvement on NDCG@10. Our code is available at https://github.com/hyp1231/Latte.}
 }
 
 @article{pan2026flexrecadapt,
