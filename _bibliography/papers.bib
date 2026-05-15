@@ -1,3 +1,15 @@
+@article{guo2026mlpsareeffic,
+  title = {MLPs are Efficient Distilled Generative Recommenders},
+  author = {Zitian Guo and Yupeng Hou and Clark Mingxuan Ju and Neil Shah and Julian McAuley},
+  journal = {arXiv preprint},
+  year = {2026},
+  abbr = {preprint},
+  pdf = {https://arxiv.org/pdf/2605.12617},
+  arxiv = {2605.12617},
+  preview = {guo2026mlpsareeffic.png},
+  abstract = {Generative recommendation models employing Semantic IDs (SIDs) exhibit strong potential, yet their practical deployment is bottlenecked by the high inference latency of beam-expanded autoregressive decoding. In this work, we identify that standard attention-heavy Transformer decoders represent a structural overkill for this task: the hierarchical nature of SIDs makes prediction difficulty drops sharply after the first token, rendering repeated attention computations highly redundant. Driven by this insight, we propose SID-MLP, a lightweight MLP-centric distillation framework that fundamentally simplifies the decoding paradigm for GR. Instead of executing complex, step-by-step attention mechanisms, our approach captures the global user context in a single operation, decoupled from sequential token prediction. We then distill the heavy autoregressive teacher into position-specific MLP heads, eliminating the dense attention overhead while preserving prefix and context dependencies. Extensive experiments demonstrate that SID-MLP matches the accuracy of teacher models while accelerating inference by 8.74x. Crucially, this distillation strategy can serve as a plug-and-play accelerator for different backbones and tokenizer settings. Furthermore, we introduce SID-MLP++, extending our distillation framework to replace the Transformer encoder, unlocking further latency reductions. Ultimately, our work reveals that decoder-side MLPs distillation is an effective acceleration path for structured SID recommendation, while full encoder replacement offers an additional speed--accuracy trade-off.}
+}
+
 @article{zeng2026cosearchjoin,
   title = {CoSearch: Joint Training of Reasoning and Document Ranking via Reinforcement Learning for Agentic Search},
   author = {Hansi Zeng and Liam Collins and Bhuvesh Kumar and Neil Shah and Hamed Zamani},
