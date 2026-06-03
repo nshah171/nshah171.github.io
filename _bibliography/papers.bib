@@ -167,12 +167,12 @@
   abstract = {Modern Sequential Recommendation (SR) models commonly utilize modality features to represent items, motivated in large part by recent advancements in language and vision modeling. To do so, several works completely replace ID embeddings with modality embeddings, claiming that modality embeddings render ID embeddings unnecessary because they can match or even exceed ID embedding performance. On the other hand, many works jointly utilize ID and modality features, but posit that complex fusion strategies, such as multi-stage training and/or intricate alignment architectures, are necessary for this joint utilization. However, underlying both these lines of work is a lack of understanding of the complementarity of ID and modality features. In this work, we address this gap by studying the complementarity of ID- and text-based SR models. We show that these models do learn complementary signals, meaning that either should provide performance gain when used properly alongside the other. Motivated by this, we propose a new SR method that preserves ID-text complementarity through independent model training, then harnesses it through a simple ensembling strategy. Despite this method's simplicity, we show it outperforms several competitive SR baselines, implying that both ID and text features are necessary to achieve state-of-the-art SR performance but complex fusion architectures are not.}
 }
 
-@article{liu2025understandin,
+@inproceedings{liu2025understandin,
   title = {Understanding Generative Recommendation with Semantic IDs from a Model Scaling View},
   author = {Jingzhe Liu and Liam Collins and Jiliang Tang and Tong Zhao and Neil Shah and Clark Ju},
-  journal = {arXiv preprint},
-  year = {2025},
-  abbr = {preprint},
+  booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  year = {2026},
+  abbr = {KDD},
   pdf = {https://www.arxiv.org/pdf/2509.25522},
   arxiv = {2509.25522},
   preview = {liu2025understandin.png},

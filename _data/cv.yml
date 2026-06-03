@@ -110,6 +110,7 @@ cv:
       - bullet: "1st place, Regional Siemens Competition in Math, Science and Technology, 2009"
 
     Refereed Conference Publications:
+      - bullet: "J. Liu, L. Collins, J. Tang, T. Zhao, N. Shah, C. Ju. *Understanding Generative Recommendation with Semantic IDs from a Model Scaling View*. **KDD 2026**."
       - bullet: "X. Ding, X. Huang, C. Ju, L. Collins, Y. Liu, L. Akoglu, N. Shah, T. Zhao. *Hierarchical Token Prepending: Enhancing Information Flow in Decoder-based LLM Embeddings*. **ACL 2026**."
       - bullet: "X. Huang, X. Ding, M. Ju, Y. Liu, N. Shah, T. Zhao. *Threshold Differential Attention for Sink-Free, Ultra-Sparse, and Non-Dispersive Language Modeling*. **ACL 2026**."
       - bullet: "J. Zhu, M. Ju, Y. Liu, S. Vij, D. Koutra, N. Shah, T. Zhao. *Beyond Unimodal Perspectives: Generative Retrieval with Multimodal Semantics*. **SIGIR 2026**."

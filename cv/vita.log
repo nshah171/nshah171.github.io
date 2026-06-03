@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  27 APR 2026 18:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  2 JUN 2026 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,13 +409,13 @@ Here is how much of TeX's memory you used:
  38563 multiletter control sequences out of 15000+600000
  683740 words of font info for 63 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,8n,79p,351b,601s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,351b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/libertine/LinLibe
 rtineT.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/libertin
 e/LinLibertineTB.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/publi
 c/libertine/LinLibertineTI.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/t
 ype1/urw/courier/ucrr8a.pfb>
-Output written on vita.pdf (10 pages, 304612 bytes).
+Output written on vita.pdf (10 pages, 305213 bytes).
 PDF statistics:
  113 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream
