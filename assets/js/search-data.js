@@ -351,6 +351,9 @@ ninja.data = [{
           section: "News",},{id: "news-sharing-a-new-preprint-on-expressiveness-limits-in-semantic-id-based-gr-and-how-latent-tokens-can-alleviate-them",
           title: 'Sharing a new preprint on expressiveness limits in Semantic ID-based GR, and how...',
           description: "",
+          section: "News",},{id: "news-sharing-a-new-preprint-on-self-supervised-user-profile-generation-for-personalization",
+          title: 'Sharing a new preprint on self-supervised user profile generation for personalization.',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
