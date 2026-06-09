@@ -1,3 +1,15 @@
+@article{ju2026selfsupervis,
+  title = {Self-supervised User Profile Generation for Personalization},
+  author = {Clark Mingxuan Ju and Yuwei Qiu and Tong Zhao and Neil Shah},
+  journal = {arXiv preprint},
+  year = {2026},
+  abbr = {preprint},
+  pdf = {https://arxiv.org/pdf/2606.05336},
+  arxiv = {2606.05336},
+  preview = {ju2026selfsupervis.png},
+  abstract = {Personalizing large language models (LLMs) has become a central challenge as LLMs are deployed across recommendation, search, dialogue, and content generation -- settings where the same query should yield different answers given different users. A promising route is to summarize each user's interaction history into a natural-language memory or profile and prepend it to the prompt to facilitate personalization. Existing methods learn such profile generators with explicit rewards derived from labeled downstream tasks, which are expensive and sparse as they require annotated supervision for every target task. In light of this challenge, we introduce Bidirectional User Modeling via Profiles (BUMP), a self-supervised framework that trains a profile generator without any downstream labels. Specifically, given a user's interaction history, we use GRPO to train an LLM to emit a free-form textual profile under a bidirectional in-batch ranking objective: a small LLM judge measures (i) how well the generated profile, used as a query, ranks the user's own held-out interactions above interactions from other users in the batch, and (ii) how well a held-out interaction, used as a query, ranks the user's own profile above profiles of other users. Both directions are scored with multi-positive NDCG and combined into a dense reward per rollout; other users in the batch supply free negatives, so every training example yields supervision from raw interaction logs alone. Evaluated on the LaMP benchmark, BUMP matches or outperforms closed-source APIs and prior methods relying on labeled rewards, while requiring no task label at training.}
+}
+
 @article{guo2026mlpsareeffic,
   title = {MLPs are Efficient Distilled Generative Recommenders},
   author = {Zitian Guo and Yupeng Hou and Clark Mingxuan Ju and Neil Shah and Julian McAuley},
