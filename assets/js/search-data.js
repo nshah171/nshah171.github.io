@@ -354,6 +354,9 @@ ninja.data = [{
           section: "News",},{id: "news-sharing-a-new-preprint-on-self-supervised-user-profile-generation-for-personalization",
           title: 'Sharing a new preprint on self-supervised user profile generation for personalization.',
           description: "",
+          section: "News",},{id: "news-sharing-a-new-preprint-on-implicit-reasoning-for-llm-based-generative-recommendation",
+          title: 'Sharing a new preprint on implicit reasoning for LLM-based generative recommendation.',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
