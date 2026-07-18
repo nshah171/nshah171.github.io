@@ -357,6 +357,9 @@ ninja.data = [{
           section: "News",},{id: "news-sharing-a-new-preprint-on-implicit-reasoning-for-llm-based-generative-recommendation",
           title: 'Sharing a new preprint on implicit reasoning for LLM-based generative recommendation.',
           description: "",
+          section: "News",},{id: "news-two-papers-accepted-at-recsys-2026-new-work-on-id-text-complementarity-in-sequential-recommendation-and-optimizing-textual-decoding-tries-for-llm-based-generative-recommendation",
+          title: 'Two papers accepted at RecSys 2026 – new work on ID-text complementarity in...',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
