@@ -110,6 +110,8 @@ cv:
       - bullet: "1st place, Regional Siemens Competition in Math, Science and Technology, 2009"
 
     Refereed Conference Publications:
+      - bullet: "L. Collins, B. Kumar, C. Ju, T. Zhao, D. Loveland, L. Neves, N. Shah. *Understanding ID-Text Complementarity in Sequential Recommendation*. **RecSys 2026**."
+      - bullet: "J. Liu, H. Wang, J. Tang, L. Collins, T. Zhao, N. Shah, C. Ju. *Beyond Fixed Depths and Widths: Optimizing Textual Decoding Tries in LLM-based Generative Recommendation*. **RecSys 2026**."
       - bullet: "J. Liu, L. Collins, J. Tang, T. Zhao, N. Shah, C. Ju. *Understanding Generative Recommendation with Semantic IDs from a Model Scaling View*. **KDD 2026**."
       - bullet: "X. Ding, X. Huang, C. Ju, L. Collins, Y. Liu, L. Akoglu, N. Shah, T. Zhao. *Hierarchical Token Prepending: Enhancing Information Flow in Decoder-based LLM Embeddings*. **ACL 2026**."
       - bullet: "X. Huang, X. Ding, M. Ju, Y. Liu, N. Shah, T. Zhao. *Threshold Differential Attention for Sink-Free, Ultra-Sparse, and Non-Dispersive Language Modeling*. **ACL 2026**."

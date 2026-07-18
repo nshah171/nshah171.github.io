@@ -1,3 +1,25 @@
+@inproceedings{collins2026understandi,
+  title = {Understanding ID-Text Complementarity in Sequential Recommendation},
+  author = {Liam Collins and Bhuvesh Kumar and Clark Mingxuan Ju and Tong Zhao and Donald Loveland and Leonardo Neves and Neil Shah},
+  booktitle = {ACM Conference on Recommender Systems},
+  year = {2026},
+  abbr = {RecSys},
+  pdf = {https://arxiv.org/pdf/2512.17820},
+  arxiv = {2512.17820},
+  preview = {collins2026understandi.png},
+  abstract = {Dense retrieval-based Sequential Recommendation (SR) systems increasingly leverage text features to represent items, and generally do so in one of two ways: (i) by completely replacing ID embeddings with text embeddings, or (ii) by carefully combining ID and text embeddings through complex fusion mechanisms. While these lines of work have produced strong recommendation performances, they offer conflicting perspectives on ID-text complementarity, or the extent to which ID and text embeddings specialize in modeling different signals: the former suggests a lack of complementarity, and the latter argues it exists but must be harnessed carefully. Moreover, neither workstream conducts an in-depth study of ID-text complementarity. We aim to clarify this picture by developing a rigorous understanding of the complementarity of ID- and text-based SR models in this work. Our study reveals that these models do learn complementary signals, meaning that either should provide performance gain when used properly alongside the other. Motivated by this, we introduce and evaluate a new, simple SR baseline that preserves ID-text complementarity through independent model training, then harnesses it via ensembling. Despite this method's simplicity, we show it outperforms several competitive SR baselines, implying a third perspective on ID-text complementarity: both features are necessary to achieve state-of-the-art SR performance, but complex fusion strategies are not.}
+}
+
+@inproceedings{liu2026beyondfixed,
+  title = {Beyond Fixed Depths and Widths: Optimizing Textual Decoding Tries in LLM-based Generative Recommendation},
+  author = {Jingzhe Liu and Hanbing Wang and Jiliang Tang and Liam Collins and Tong Zhao and Neil Shah and Clark Mingxuan Ju},
+  booktitle = {ACM Conference on Recommender Systems},
+  year = {2026},
+  abbr = {RecSys},
+  preview = {liu2026beyondfixed.png},
+  abstract = {Generative recommendation (GR) is an increasingly popular paradigm in recommender systems, with a prominent line of work using LLMs as autoregressive backbones to predict the next item's term IDs (e.g., titles or keywords). The success of autoregressive generation hinges on constrained beam search over a decoding trie to ensure that generated outputs correspond to valid items. However, current research predominantly focuses on generating more comprehensive term IDs to describe items, while largely neglecting the structural design of the decoding trie formed by these terms. This can lead to a trie that is poorly suited to beam search, which degrades performance. To address this, we examine the effectiveness of term IDs from the perspective of decoding trie optimization. Through empirical and theoretical analyses, we identify two desirable properties for a highly performant trie: (1) adaptive and variable ID length, enabling items with varying semantic richness to be represented by IDs of appropriate lengths, and (2) constrained branching factors, especially at shallow levels, which drastically improves the success rate of constrained beam search. Motivated by these properties, we introduce BONSAI: Branching-Optimized Node Structure for Adaptive Identifiers, a novel framework that co-designs textual term IDs and their underlying decoding trie. BONSAI extracts recommendation-informative words from item metadata and employs a minimum set cover formulation to recursively build a trie that satisfies the above properties. Experiments reveal that BONSAI achieves up to a 21.6\% relative improvement over state-of-the-art baselines. Further analyses confirm the crucial role of our proposed properties, and demonstrate their generalizability to be applied to enhance the performance of other term ID methods.}
+}
+
 @article{he2026implicitreas,
   title = {Implicit Reasoning for Large Language Model-based Generative Recommendation},
   author = {Yinhan He and Liam Collins and Bhuvesh Kumar and Jundong Li and Neil Shah and Donald Loveland},
