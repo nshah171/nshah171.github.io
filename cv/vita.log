@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  16 JUL 2026 15:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  6 AUG 2026 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -394,7 +394,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 84.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 84.
- [2] [3] [4] [5] [6] [7] [8] [9] [10] (./vita.aux)
+ [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] (./vita.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -403,8 +403,8 @@ Package rerunfilecheck Info: File `vita.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10006 strings out of 469006
- 165011 string characters out of 5454814
+ 10007 strings out of 469006
+ 165018 string characters out of 5454814
  577834 words of memory out of 5000000
  38563 multiletter control sequences out of 15000+600000
  683740 words of font info for 63 fonts, out of 8000000 for 9000
@@ -415,10 +415,10 @@ rtineT.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/libertin
 e/LinLibertineTB.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/publi
 c/libertine/LinLibertineTI.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/t
 ype1/urw/courier/ucrr8a.pfb>
-Output written on vita.pdf (10 pages, 305388 bytes).
+Output written on vita.pdf (11 pages, 306039 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 33 named destinations out of 1000 (max. 500000)
+ 117 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
+ 34 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

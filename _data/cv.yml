@@ -110,6 +110,7 @@ cv:
       - bullet: "1st place, Regional Siemens Competition in Math, Science and Technology, 2009"
 
     Refereed Conference Publications:
+      - bullet: "H. Zeng, L. Collins, B. Kumar, N. Shah, H. Zamani. *CoSearch: Joint Training of Reasoning and Document Ranking via Reinforcement Learning for Agentic Search*. **COLM 2026**."
       - bullet: "L. Collins, B. Kumar, C. Ju, T. Zhao, D. Loveland, L. Neves, N. Shah. *Understanding ID-Text Complementarity in Sequential Recommendation*. **RecSys 2026**."
       - bullet: "J. Liu, H. Wang, J. Tang, L. Collins, T. Zhao, N. Shah, C. Ju. *Beyond Fixed Depths and Widths: Optimizing Textual Decoding Tries in LLM-based Generative Recommendation*. **RecSys 2026**."
       - bullet: "J. Liu, L. Collins, J. Tang, T. Zhao, N. Shah, C. Ju. *Understanding Generative Recommendation with Semantic IDs from a Model Scaling View*. **KDD 2026**."
@@ -230,6 +231,8 @@ cv:
       - bullet: "Y. Liu, N. Shah, D. Koutra. *An Empirical Comparison of the Summarization Power of Graph Clustering Methods*. **NIPS NSIS 2015**."
 
     Surveys:
+      - bullet: "S. Kim, G. Lee, K. Kim, L. Collins, N. Shah, K. Shin. *Retrieval-Augmented Generation for LLM-based Recommender Systems: A Comprehensive Survey*. **KDD 2026**."
+      - bullet: "S. Kim, G. Lee, K. Kim, L. Collins, N. Shah, K. Shin. *Retrieval-Augmented Generation for LLM-based Recommender Systems: A Comprehensive Survey*. **CIKM 2026**."
       - bullet: "H. Han, Y. Wang, H. Shomer, K. Guo, J. Ding, Y. Lei, M. Halappanavar, R. A. Rossi, et al. *Retrieval-Augmented Generation with Graphs (GraphRAG)*. **arXiv 2024**."
       - bullet: "T. Zhao, W. Jin, Y. Liu, Y. Wang, G. Liu, S. Günnemann, N. Shah, M. Jiang. *Graph Data Augmentation for Graph Machine Learning*. **IEEE Data Engineering Bulletin 2023**."
       - bullet: "S. Kumar, N. Shah. *False Information on the Web and Social Media*. **arXiv 2018**."

@@ -1,3 +1,28 @@
+@inproceedings{kim2026retrievalaugcikm,
+  title = {Retrieval-Augmented Generation for LLM-based Recommender Systems: A Comprehensive Survey},
+  author = {Sunwoo Kim and Geon Lee and Kyungho Kim and Liam Collins and Neil Shah and Kijung Shin},
+  booktitle = {ACM International Conference on Information and Knowledge Management},
+  year = {2026},
+  abbr = {CIKM},
+  pdf = {https://hal.science/hal-05561909v1/document},
+  html = {https://hal.science/hal-05561909v1/},
+  preview = {kim2026retrievalaug.png},
+  abstract = {Recommender systems are essential to realworld online services due to their substantial business value. Increasingly, large language models (LLMs) have been adopted for recommendation tasks, owing to their strong reasoning capabilities and their effectiveness in handling cold-start items. A large body of work has sought to adapt retrieval-augmented generation (RAG) for LLM-based recommender systems by retrieving information from external databases and integrating it into the LLM's input to improve recommendation quality. Despite the rapid growth of the field, existing studies lack a clear taxonomy and a dedicated review of RAG methods for LLM-based recommender systems. To fill this gap, we present the first survey on this topic. First, we review the types of information used in LLM-based recommender systems, including target-user information and external databases for retrieval. Second, we characterize the design space of RAG for LLM-based recommender systems by outlining the key design choices at each stage of the pipeline: (1) retrieval, (2) augmentation, and (3) generation. Lastly, we discuss open questions for future research.}
+}
+
+@article{collins2026llmbasedgene,
+  title = {LLM-Based Generative Retrieval for Snapchat Content Recommendation},
+  author = {Liam Collins and Jiwen Ren and Donald Loveland and Bhuvesh Kumar and Clark Mingxuan Ju and Xuan Guo and Mo Li and Alvin Hou and Yi Cui and Peng Yang and Jian Wang and Saud Afzal Shafi and Nga Than and Ruiming Lu and Wenfeng Zhuo and Dongheng Li and Lili Zhang and Mingtao Zhang and Jinchao Ye and Vincent Xue and Chunhui Zhu and Neil Shah},
+  journal = {arXiv preprint},
+  year = {2026},
+  abbr = {preprint},
+  pdf = {https://arxiv.org/pdf/2607.28895},
+  arxiv = {2607.28895},
+  preview = {collins2026llmbasedgene.png},
+  battle_tested = {true},
+  abstract = {Pretrained large language models (LLMs) are promising retrieval engines because they combine rich semantic priors, strong sequence modeling capabilities, and favorable scaling behavior. However, turning a pretrained LLM into a generative retriever in production deployment raises several challenges: the model must learn an internal item vocabulary that was absent from pretraining, and generate valid item identifiers under strict latency and cost constraints. We address these challenges through the design and launch of SnapLGR, an LLM-based generative retrieval system for short-video recommendation at Snapchat. The system is built around three main designs. First, we construct semantic identifiers (SIDs) from multimodal item embeddings and enhance them with Personalized PageRank (PPR)-based co-engagement contrastive learning, resulting in improved codebook utilization, reduced collisions, and infused collaborative signal. Second, we use continued pretraining (CPT) to ground the introduced SID tokens before supervised fine-tuning (SFT) on user interaction sequences. Third, we make SnapLGR serving practical through TensorRT-LLM CUDA-backed beam search and a decentralized worker-loop architecture. In a live A/B test, the launched system increased View Time by 0.37\%, Time Spent by 0.09\%, Deep Sessions by 0.18\%, and Deep Sessions Unique User by 0.11\% relative to the existing TIGER-style generative retrieval baseline.}
+}
+
 @inproceedings{collins2026understandi,
   title = {Understanding ID-Text Complementarity in Sequential Recommendation},
   author = {Liam Collins and Bhuvesh Kumar and Clark Mingxuan Ju and Tong Zhao and Donald Loveland and Leonardo Neves and Neil Shah},
@@ -58,12 +83,12 @@
   abstract = {Generative recommendation models employing Semantic IDs (SIDs) exhibit strong potential, yet their practical deployment is bottlenecked by the high inference latency of beam-expanded autoregressive decoding. In this work, we identify that standard attention-heavy Transformer decoders represent a structural overkill for this task: the hierarchical nature of SIDs makes prediction difficulty drops sharply after the first token, rendering repeated attention computations highly redundant. Driven by this insight, we propose SID-MLP, a lightweight MLP-centric distillation framework that fundamentally simplifies the decoding paradigm for GR. Instead of executing complex, step-by-step attention mechanisms, our approach captures the global user context in a single operation, decoupled from sequential token prediction. We then distill the heavy autoregressive teacher into position-specific MLP heads, eliminating the dense attention overhead while preserving prefix and context dependencies. Extensive experiments demonstrate that SID-MLP matches the accuracy of teacher models while accelerating inference by 8.74x. Crucially, this distillation strategy can serve as a plug-and-play accelerator for different backbones and tokenizer settings. Furthermore, we introduce SID-MLP++, extending our distillation framework to replace the Transformer encoder, unlocking further latency reductions. Ultimately, our work reveals that decoder-side MLPs distillation is an effective acceleration path for structured SID recommendation, while full encoder replacement offers an additional speed--accuracy trade-off.}
 }
 
-@article{zeng2026cosearchjoin,
+@inproceedings{zeng2026cosearchjoin,
   title = {CoSearch: Joint Training of Reasoning and Document Ranking via Reinforcement Learning for Agentic Search},
   author = {Hansi Zeng and Liam Collins and Bhuvesh Kumar and Neil Shah and Hamed Zamani},
-  journal = {arXiv preprint},
+  booktitle = {Conference on Language Modeling},
   year = {2026},
-  abbr = {preprint},
+  abbr = {COLM},
   pdf = {https://arxiv.org/pdf/2604.17555},
   arxiv = {2604.17555},
   preview = {zeng2026cosearchjoin.png},
@@ -213,6 +238,18 @@
   preview = {collins2025exploitingid.png},
   code = {https://github.com/snap-research/EnsRec},
   abstract = {Modern Sequential Recommendation (SR) models commonly utilize modality features to represent items, motivated in large part by recent advancements in language and vision modeling. To do so, several works completely replace ID embeddings with modality embeddings, claiming that modality embeddings render ID embeddings unnecessary because they can match or even exceed ID embedding performance. On the other hand, many works jointly utilize ID and modality features, but posit that complex fusion strategies, such as multi-stage training and/or intricate alignment architectures, are necessary for this joint utilization. However, underlying both these lines of work is a lack of understanding of the complementarity of ID and modality features. In this work, we address this gap by studying the complementarity of ID- and text-based SR models. We show that these models do learn complementary signals, meaning that either should provide performance gain when used properly alongside the other. Motivated by this, we propose a new SR method that preserves ID-text complementarity through independent model training, then harnesses it through a simple ensembling strategy. Despite this method's simplicity, we show it outperforms several competitive SR baselines, implying that both ID and text features are necessary to achieve state-of-the-art SR performance but complex fusion architectures are not.}
+}
+
+@inproceedings{kim2026retrievalaugkdd,
+  title = {Retrieval-Augmented Generation for LLM-based Recommender Systems: A Comprehensive Survey},
+  author = {Sunwoo Kim and Geon Lee and Kyungho Kim and Liam Collins and Neil Shah and Kijung Shin},
+  booktitle = {ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  year = {2026},
+  abbr = {KDD},
+  pdf = {https://hal.science/hal-05561909v1/document},
+  html = {https://hal.science/hal-05561909v1/},
+  preview = {kim2026retrievalaug.png},
+  abstract = {Recommender systems are essential to realworld online services due to their substantial business value. Increasingly, large language models (LLMs) have been adopted for recommendation tasks, owing to their strong reasoning capabilities and their effectiveness in handling cold-start items. A large body of work has sought to adapt retrieval-augmented generation (RAG) for LLM-based recommender systems by retrieving information from external databases and integrating it into the LLM's input to improve recommendation quality. Despite the rapid growth of the field, existing studies lack a clear taxonomy and a dedicated review of RAG methods for LLM-based recommender systems. To fill this gap, we present the first survey on this topic. First, we review the types of information used in LLM-based recommender systems, including target-user information and external databases for retrieval. Second, we characterize the design space of RAG for LLM-based recommender systems by outlining the key design choices at each stage of the pipeline: (1) retrieval, (2) augmentation, and (3) generation. Lastly, we discuss open questions for future research.}
 }
 
 @inproceedings{liu2025understandin,
