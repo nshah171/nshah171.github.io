@@ -256,7 +256,10 @@ def split_grouped(title):
 
 def emit_preamble(cv):
     name = cv.get("name", "")
-    label = cv.get("label", "Director of Research, Senior Principal Scientist")
+    label = cv.get("label", "Director of AI, Principal Scientist at Pinterest")
+    title, _, employer = label.partition(" at ")
+    employer_url = cv.get("employer_url", "")
+    employer_tex = (r"\href{" + employer_url + "}{" + tex_escape(employer) + "}") if employer_url else tex_escape(employer)
     # extract summary text if present
     summary_block = ""
     sections = cv.get("sections") or {}
@@ -299,8 +302,8 @@ def emit_preamble(cv):
 \vspace{0.25in}
 \begin{tabular}[t]{cc}
  \begin{minipage}[t,left]{0.5\linewidth}
- """ + tex_escape(label.split(" at ")[0] if " at " in label else label) + r""" \\
- \href{http://www.snap.com}{Snap Inc.} \\
+ """ + tex_escape(title) + r""" \\
+ """ + employer_tex + r""" \\
  """ + tex_escape(location) + r"""
  \end{minipage} \hfill \quad \quad \quad \quad \quad \quad \quad \begin{minipage}[t,right]{0.5\linewidth}
   Email: \texttt{{\fontfamily{pcr}\selectfont """ + tex_escape(email.replace('@', '[at]').replace('.', '[dot]')) + r"""}}\\

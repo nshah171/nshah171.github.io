@@ -78,6 +78,11 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+// Keep callout blocks beside the floated profile instead of running under it
+.profile ~ .clearfix blockquote {
+  display: flow-root;
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
