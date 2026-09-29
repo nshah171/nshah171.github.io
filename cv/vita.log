@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  6 AUG 2026 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  28 SEP 2026 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -179,8 +179,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
 \Hy@SectionHShift=\skip51
-)
-(/usr/local/texlive/2026basic/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (/Users/neilshah/Library/texmf/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip52
 \enit@outerparindent=\dimen161
@@ -189,7 +188,7 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@count@id=\count298
 \enitdp@description=\count299
 )
-(/usr/local/texlive/2026basic/texmf-dist/tex/latex/etaremune/etaremune.sty
+(/Users/neilshah/Library/texmf/tex/latex/etaremune/etaremune.sty
 Package: etaremune 2005/06/01 v1.2 Reversed enumerate (HA)
 
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -207,7 +206,7 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \c@EM@itemctr=\count301
 \c@EM@etaremunectr=\count302
 )
-(/usr/local/texlive/2026basic/texmf-dist/tex/latex/libertine/libertine.sty
+(/Users/neilshah/Library/texmf/tex/latex/libertine/libertine.sty
 Package: libertine 2024/04/23 (Bob Tennent) Supports Libertine and Biolinum fon
 ts for all LaTeX engines.
 
@@ -223,11 +222,11 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
-(/usr/local/texlive/2026basic/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+(/Users/neilshah/Library/texmf/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
 Applying: [0000-00-00] Fall back to v1 on input line 76.
 
-(/usr/local/texlive/2026basic/texmf-dist/tex/latex/fontaxes/fontaxes-v1.sty
+(/Users/neilshah/Library/texmf/tex/latex/fontaxes/fontaxes-v1.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -242,13 +241,11 @@ LaTeX Info: Redefining \textulc on input line 49.
 ))
 LaTeX Info: Redefining \oldstylenums on input line 485.
 
-(/usr/local/texlive/2026basic/texmf-dist/tex/latex/libertine/LinLibertine_I.tex
-))
+(/Users/neilshah/Library/texmf/tex/latex/libertine/LinLibertine_I.tex))
 LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineT-TLF 
 on input line 17.
 
-(/usr/local/texlive/2026basic/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-
-TLF.fd
+(/Users/neilshah/Library/texmf/tex/latex/libertine/t1linuxlibertinet-tlf.fd
 File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Li
 nuxLibertineT-TLF.
 )
@@ -335,8 +332,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineMonoT-
 TLF on input line 28.
 
-(/usr/local/texlive/2026basic/texmf-dist/tex/latex/libertine/T1LinuxLibertineMo
-noT-TLF.fd
+(/Users/neilshah/Library/texmf/tex/latex/libertine/t1linuxlibertinemonot-tlf.fd
 File: T1LinuxLibertineMonoT-TLF.fd 2019/05/20 (autoinst) Font definitions for T
 1/LinuxLibertineMonoT-TLF.
 )
@@ -368,9 +364,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/sc' will be
 (Font)              scaled to size 14.4pt on input line 33.
 LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF
  on input line 36.
-
-(/usr/local/texlive/2026basic/texmf-dist/tex/latex/libertine/TS1LinuxLibertineT
--TLF.fd
+(/Users/neilshah/Library/texmf/tex/latex/libertine/ts1linuxlibertinet-tlf.fd
 File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
@@ -380,21 +374,22 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 36.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 40.
- [1
 
-{/usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/us
-r/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/libertine/lbtn_tlukpt.enc}
-{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.
-enc}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/
-local/texlive/2026basic/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/
-usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.en
-c}{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/libertine/lbtn_7gruk
-w.enc}]
+[1
+
+{/Users/neilshah/Library/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pd
+ftex.map}{/Users/neilshah/Library/texmf/fonts/enc/dvips/libertine/lbtn_tlukpt.e
+nc}{/Users/neilshah/Library/texmf/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/u
+sr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/base/8r.enc}{/Users/neils
+hah/Library/texmf/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/Users/neilshah/Li
+brary/texmf/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/Users/neilshah/Library/
+texmf/fonts/enc/dvips/libertine/lbtn_7grukw.enc}]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 84.
+(Font)              scaled to size 12.0pt on input line 85.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 84.
- [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] (./vita.aux)
+(Font)              scaled to size 12.0pt on input line 85.
+ [2] [3] [4] [5] [6]
+[7] [8] [9] [10] [11] (./vita.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -403,19 +398,18 @@ Package rerunfilecheck Info: File `vita.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10007 strings out of 469006
- 165018 string characters out of 5454814
- 577834 words of memory out of 5000000
- 38563 multiletter control sequences out of 15000+600000
+ 10000 strings out of 469006
+ 164583 string characters out of 5454814
+ 576834 words of memory out of 5000000
+ 38556 multiletter control sequences out of 15000+600000
  683740 words of font info for 63 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,8n,79p,351b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/libertine/LinLibe
-rtineT.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/libertin
-e/LinLibertineTB.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/publi
-c/libertine/LinLibertineTI.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/t
-ype1/urw/courier/ucrr8a.pfb>
-Output written on vita.pdf (11 pages, 306039 bytes).
+ 75i,8n,79p,354b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/neilshah/Library/texmf/fonts/type1/public/libertine/LinLibertineT.pfb
+></Users/neilshah/Library/texmf/fonts/type1/public/libertine/LinLibertineTB.pfb
+></Users/neilshah/Library/texmf/fonts/type1/public/libertine/LinLibertineTI.pfb
+></Users/neilshah/Library/texmf/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on vita.pdf (11 pages, 306493 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  93 compressed objects within 1 object stream

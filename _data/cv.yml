@@ -1,5 +1,7 @@
 cv:
   name: Neil Shah
+  label: Director of AI, Principal Scientist at Pinterest
+  employer_url: https://www.pinterest.com
   location: Seattle, WA
   email: nshah171@gmail.com
   website: https://nshah.net
@@ -11,7 +13,7 @@ cv:
 
   sections:
     Summary:
-      - bullet: Director of Research, Senior Principal Scientist at Snap Inc. I lead a horizontal team of researchers and engineers on academic, applied research, and engineering initiatives in user modeling and personalization, with applications to growth, content, ads, and safety.
+      - bullet: Director of AI, Principal Scientist at Pinterest. I lead teams across horizontal applied research and engineering efforts spanning user understanding, content understanding, and exploration. Previously, I led user modeling and personalization research at Snap Inc.
 
     Education:
       - institution: Carnegie Mellon University
@@ -39,13 +41,20 @@ cv:
           - "GPA: **4.0** (class rank #1), *Summa Cum Laude with Honors*"
 
     Experience:
+      - company: Pinterest
+        position: Director of AI, Principal Scientist
+        location: Seattle, WA
+        start_date: 2026-09
+        end_date: present
+        highlights:
+          - Lead teams across horizontal applied research and engineering efforts spanning user understanding, content understanding, and exploration.
       - company: Snap Inc.
         position: Director of Research, Senior Principal Scientist
         location: Seattle, WA
         start_date: 2017-12
-        end_date: present
+        end_date: 2026-09
         highlights:
-          - Lead a horizontal team of researchers and engineers on academic, applied research, and engineering initiatives in user modeling and personalization, with applications to growth, content, ads, and safety.
+          - Led a horizontal team of researchers and engineers on academic, applied research, and engineering initiatives in user modeling and personalization, with applications to growth, content, ads, and safety.
       - company: Carnegie Mellon University
         position: Graduate Researcher
         location: Pittsburgh, PA
