@@ -360,6 +360,9 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-accepted-at-recsys-2026-new-work-on-id-text-complementarity-in-sequential-recommendation-and-optimizing-textual-decoding-tries-for-llm-based-generative-recommendation",
           title: 'Two papers accepted at RecSys 2026 – new work on ID-text complementarity in...',
           description: "",
+          section: "News",},{id: "news-i-ve-joined-pinterest-as-director-of-ai-and-principal-scientist-i-ll-be-working-on-problems-in-large-scale-user-and-content-modeling-leveraging-graphs-sequence-models-llms-and-vlms-looking-forward-to-new-adventures",
+          title: 'I’ve joined Pinterest as Director of AI and Principal Scientist! I’ll be working...',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
